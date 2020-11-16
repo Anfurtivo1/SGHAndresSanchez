@@ -17,32 +17,29 @@ namespace SGHAndresSanchez
             InitializeComponent();
         }
 
+        private void atencsmedicasBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.atencsmedicasBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.hospitalDataSet);
+
+        }
+
         private void FormularioPrincipal_Load(object sender, EventArgs e)
         {
-            if (this.MdiChildren.Length > 0)
-            {
-                if (this.MdiChildren[0].Name != "frmComboBox")
-                {
-                    DialogResult rs = MessageBox.Show("Desea cerrar el formulario actual?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                    if (rs == DialogResult.Yes)
-                    {
-                        this.MdiChildren[0].Close();
-                        DatosHospital fc = new DatosHospital();
-                        fc.MdiParent = this;
-                        fc.Dock = DockStyle.Fill;
-                        fc.Show();
-                    }
+            // TODO: esta línea de código carga datos en la tabla 'hospitalDataSet.pacientes' Puede moverla o quitarla según sea necesario.
+            this.pacientesTableAdapter.Fill(this.hospitalDataSet.pacientes);
+            // TODO: esta línea de código carga datos en la tabla 'hospitalDataSet.medicos' Puede moverla o quitarla según sea necesario.
+            this.medicosTableAdapter.Fill(this.hospitalDataSet.medicos);
+            // TODO: esta línea de código carga datos en la tabla 'hospitalDataSet.atencsmedicas' Puede moverla o quitarla según sea necesario.
+            this.atencsmedicasTableAdapter.Fill(this.hospitalDataSet.atencsmedicas);
+            timer1.Start();
 
-                }
+        }
 
-            }
-            else
-            {
-                DatosHospital fc = new DatosHospital();
-                fc.MdiParent = this;
-                fc.Dock = DockStyle.Fill;
-                fc.Show();
-            }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblFechaHora.Text = DateTime.Now.ToString();
         }
     }
 }

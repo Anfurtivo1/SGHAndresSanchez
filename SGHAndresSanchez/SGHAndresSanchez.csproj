@@ -57,18 +57,6 @@
     <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AtencionMedica.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AtencionMedica.Designer.cs">
-      <DependentUpon>AtencionMedica.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CitasMedico.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CitasMedico.Designer.cs">
-      <DependentUpon>CitasMedico.cs</DependentUpon>
-    </Compile>
     <Compile Include="GestionMedicos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,52 +68,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>hospitalDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Pacientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pacientes.Designer.cs">
-      <DependentUpon>Pacientes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Medicos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Medicos.Designer.cs">
-      <DependentUpon>Medicos.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormularioPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioPrincipal.Designer.cs">
       <DependentUpon>FormularioPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatosHospital.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatosHospital.Designer.cs">
-      <DependentUpon>DatosHospital.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AtencionMedica.resx">
-      <DependentUpon>AtencionMedica.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CitasMedico.resx">
-      <DependentUpon>CitasMedico.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormularioPrincipal.resx">
       <DependentUpon>FormularioPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatosHospital.resx">
-      <DependentUpon>DatosHospital.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GestionMedicos.resx">
       <DependentUpon>GestionMedicos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Medicos.resx">
-      <DependentUpon>Medicos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pacientes.resx">
-      <DependentUpon>Pacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -135,6 +90,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="hospitalDataSet.xsc">
       <DependentUpon>hospitalDataSet.xsd</DependentUpon>
@@ -159,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\citaMedica.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
