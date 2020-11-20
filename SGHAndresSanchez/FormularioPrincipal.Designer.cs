@@ -49,8 +49,6 @@
             System.Windows.Forms.Label label10;
             System.Windows.Forms.Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormularioPrincipal));
-            System.Windows.Forms.Label label12;
-            System.Windows.Forms.Label label13;
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -84,7 +82,7 @@
             this.alergiasTextBox = new System.Windows.Forms.TextBox();
             this.adestacarTextBox = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.nombreComboBox = new System.Windows.Forms.ComboBox();
+            this.cbNombre = new System.Windows.Forms.ComboBox();
             this.btnActualizarDiagnostico = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cbEspecialidad = new System.Windows.Forms.ComboBox();
@@ -104,6 +102,8 @@
             this.tableAdapterManager = new SGHAndresSanchez.hospitalDataSetTableAdapters.TableAdapterManager();
             this.medicosTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.medicosTableAdapter();
             this.pacientesTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.pacientesTableAdapter();
+            this.lblEspecialidad = new System.Windows.Forms.Label();
+            this.lblIdMedico = new System.Windows.Forms.Label();
             this.idAtenc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -128,8 +128,6 @@
             label9 = new System.Windows.Forms.Label();
             label10 = new System.Windows.Forms.Label();
             label11 = new System.Windows.Forms.Label();
-            label12 = new System.Windows.Forms.Label();
-            label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -340,6 +338,7 @@
             this.btnGestionMedicos.TabIndex = 13;
             this.btnGestionMedicos.Text = "Gestión de medicos";
             this.btnGestionMedicos.UseVisualStyleBackColor = true;
+            this.btnGestionMedicos.Click += new System.EventHandler(this.btnGestionMedicos_Click);
             // 
             // label5
             // 
@@ -475,6 +474,7 @@
             this.btnGestionPacientes.TabIndex = 22;
             this.btnGestionPacientes.Text = "Gestion de pacientes";
             this.btnGestionPacientes.UseVisualStyleBackColor = true;
+            this.btnGestionPacientes.Click += new System.EventHandler(this.btnGestionPacientes_Click);
             // 
             // idpacienteLabel
             // 
@@ -583,10 +583,10 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.panel5.Controls.Add(label13);
-            this.panel5.Controls.Add(label12);
+            this.panel5.Controls.Add(this.lblIdMedico);
+            this.panel5.Controls.Add(this.lblEspecialidad);
             this.panel5.Controls.Add(this.dataGridView1);
-            this.panel5.Controls.Add(this.nombreComboBox);
+            this.panel5.Controls.Add(this.cbNombre);
             this.panel5.Controls.Add(idmedicoLabel2);
             this.panel5.Controls.Add(especialidadLabel1);
             this.panel5.Controls.Add(nombreLabel2);
@@ -598,15 +598,17 @@
             this.panel5.Size = new System.Drawing.Size(545, 444);
             this.panel5.TabIndex = 7;
             // 
-            // nombreComboBox
+            // cbNombre
             // 
-            this.nombreComboBox.FormattingEnabled = true;
-            this.nombreComboBox.Location = new System.Drawing.Point(241, 41);
-            this.nombreComboBox.Margin = new System.Windows.Forms.Padding(2);
-            this.nombreComboBox.Name = "nombreComboBox";
-            this.nombreComboBox.Size = new System.Drawing.Size(92, 21);
-            this.nombreComboBox.TabIndex = 25;
-            this.nombreComboBox.SelectedIndexChanged += new System.EventHandler(this.nombreComboBox_SelectedIndexChanged);
+            this.cbNombre.Enabled = false;
+            this.cbNombre.FormattingEnabled = true;
+            this.cbNombre.Location = new System.Drawing.Point(241, 41);
+            this.cbNombre.Margin = new System.Windows.Forms.Padding(2);
+            this.cbNombre.Name = "cbNombre";
+            this.cbNombre.Size = new System.Drawing.Size(92, 21);
+            this.cbNombre.TabIndex = 25;
+            this.cbNombre.SelectedIndexChanged += new System.EventHandler(this.nombreComboBox_SelectedIndexChanged);
+            this.cbNombre.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cbNombre_MouseClick);
             // 
             // idmedicoLabel2
             // 
@@ -637,6 +639,7 @@
             // 
             // btnActualizarDiagnostico
             // 
+            this.btnActualizarDiagnostico.Enabled = false;
             this.btnActualizarDiagnostico.Location = new System.Drawing.Point(309, 119);
             this.btnActualizarDiagnostico.Name = "btnActualizarDiagnostico";
             this.btnActualizarDiagnostico.Size = new System.Drawing.Size(175, 45);
@@ -814,48 +817,52 @@
             // 
             this.pacientesTableAdapter.ClearBeforeFill = true;
             // 
+            // lblEspecialidad
+            // 
+            this.lblEspecialidad.AutoSize = true;
+            this.lblEspecialidad.Location = new System.Drawing.Point(278, 71);
+            this.lblEspecialidad.Name = "lblEspecialidad";
+            this.lblEspecialidad.Size = new System.Drawing.Size(13, 13);
+            this.lblEspecialidad.TabIndex = 27;
+            this.lblEspecialidad.Text = "--";
+            // 
+            // lblIdMedico
+            // 
+            this.lblIdMedico.AutoSize = true;
+            this.lblIdMedico.Location = new System.Drawing.Point(251, 97);
+            this.lblIdMedico.Name = "lblIdMedico";
+            this.lblIdMedico.Size = new System.Drawing.Size(13, 13);
+            this.lblIdMedico.TabIndex = 28;
+            this.lblIdMedico.Text = "--";
+            // 
             // idAtenc
             // 
             this.idAtenc.HeaderText = "idAtenc";
             this.idAtenc.Name = "idAtenc";
+            this.idAtenc.ReadOnly = true;
             // 
             // Fecha
             // 
             this.Fecha.HeaderText = "Fecha";
             this.Fecha.Name = "Fecha";
+            this.Fecha.ReadOnly = true;
             // 
             // Nombre
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
             // Apellidos
             // 
             this.Apellidos.HeaderText = "Apellidos";
             this.Apellidos.Name = "Apellidos";
+            this.Apellidos.ReadOnly = true;
             // 
             // Diagnostico
             // 
             this.Diagnostico.HeaderText = "Diagnostico";
             this.Diagnostico.Name = "Diagnostico";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new System.Drawing.Point(263, 71);
-            label12.Name = "label12";
-            label12.Size = new System.Drawing.Size(69, 13);
-            label12.TabIndex = 27;
-            label12.Text = "especialidad:";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new System.Drawing.Point(263, 94);
-            label13.Name = "label13";
-            label13.Size = new System.Drawing.Size(69, 13);
-            label13.TabIndex = 28;
-            label13.Text = "especialidad:";
             // 
             // FormularioPrincipal
             // 
@@ -947,7 +954,7 @@
         private System.Windows.Forms.TextBox alergiasTextBox;
         private System.Windows.Forms.TextBox adestacarTextBox;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.ComboBox nombreComboBox;
+        private System.Windows.Forms.ComboBox cbNombre;
         private System.Windows.Forms.Button btnActualizarDiagnostico;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -955,6 +962,8 @@
         private System.Windows.Forms.ComboBox cbEspecialidad;
         private System.Windows.Forms.ComboBox cbPaciente;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label lblIdMedico;
+        private System.Windows.Forms.Label lblEspecialidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn idAtenc;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;

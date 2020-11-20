@@ -49,6 +49,8 @@ namespace SGHAndresSanchez
                 idMedicos.Add(db.medicos[i].idmedico);
 
             }
+            
+            
         }
         private void cargarComboEspecialidad()
         {
@@ -79,8 +81,27 @@ namespace SGHAndresSanchez
 
         private void cargarDGVDiagnosticos()
         {
+            int pos = cbNombre.SelectedIndex;
+            int id = (int)idMedicos[pos];
+
             hospitalDataSet db = new hospitalDataSet();
 
+            hospitalDataSetTableAdapters.DataTable1TableAdapter DataTable1TableAdapter = new hospitalDataSetTableAdapters.DataTable1TableAdapter();
+            DataTable1TableAdapter.FillByNombreApellidos(db.DataTable1, id);
+            try
+            {
+                dataGridView1.Rows[0].Cells[0].Value = db.DataTable1[0].idatenc.ToString();
+                dataGridView1.Rows[0].Cells[1].Value = db.DataTable1[0].fecha.ToString();
+                dataGridView1.Rows[0].Cells[2].Value = db.DataTable1[0].nombre.ToString();
+                dataGridView1.Rows[0].Cells[3].Value = db.DataTable1[0].apellidos.ToString();
+                btnActualizarDiagnostico.Enabled = true;
+            }
+            catch
+            {
+                MessageBox.Show("Error al cargar las citas");
+            }
+
+            
 
         }
 
@@ -123,7 +144,7 @@ namespace SGHAndresSanchez
                 }
                 catch
                 {
-                    MessageBox.Show("Error al cargar la imagen");
+                    MessageBox.Show("Error al cargar la imagen, no se ha encontrado una imagen valida");
                 }
                 
             }
@@ -162,6 +183,7 @@ namespace SGHAndresSanchez
         private void cbPaciente_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             cargarPanelPacientes();
+            cbNombre.Enabled = true;
         }
 
         private void cbMedico_SelectedIndexChanged(object sender, EventArgs e)
@@ -174,6 +196,7 @@ namespace SGHAndresSanchez
         private void nombreComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             cargarDGVDiagnosticos();
+            
         }
 
         private void btnActualizarDiagnostico_Click(object sender, EventArgs e)
@@ -181,13 +204,50 @@ namespace SGHAndresSanchez
             hospitalDataSet db = new hospitalDataSet();
             hospitalDataSetTableAdapters.atencsmedicasTableAdapter atencsmedicasTableAdapter = new hospitalDataSetTableAdapters.atencsmedicasTableAdapter();
 
-
-           atencsmedicasTableAdapter.UpdateDiagnostico(dataGridView1.Rows[0].Cells[4].Value.ToString());
+            atencsmedicasTableAdapter.UpdateDiagnostico(dataGridView1.Rows[0].Cells[4].Value.ToString());
+            MessageBox.Show("Se ha actualizado el registro");
+           
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void cargarComboMedicosDiagnostico()
+        {
+            cbNombre.Items.Clear();
+            idMedicos.Clear();
+            hospitalDataSet db = new hospitalDataSet();
+            hospitalDataSetTableAdapters.medicosTableAdapter medicosTableAdapter = new hospitalDataSetTableAdapters.medicosTableAdapter();
+            medicosTableAdapter.Fill(db.medicos);
+
+            for (int i = 0; i < db.medicos.Count; i++)
+            {
+                cbNombre.Items.Add(db.medicos[i].nombre);
+                idMedicos.Add(db.medicos[i].idmedico);
+            }
+
+            lblIdMedico.Text = db.medicos[0].idmedico.ToString();
+            lblEspecialidad.Text = db.medicos[0].especialidad.ToString();
+
+        }
+
+        private void cbNombre_MouseClick(object sender, MouseEventArgs e)
+        {
+            cargarComboMedicosDiagnostico();
+        }
+
+        private void btnGestionMedicos_Click(object sender, EventArgs e)
+        {
+            GestionMedicos gestionMedicos = new GestionMedicos();
+            gestionMedicos.ShowDialog();
+        }
+
+        private void btnGestionPacientes_Click(object sender, EventArgs e)
+        {
+            GestionPacientes gestionPacientes = new GestionPacientes();
+            gestionPacientes.ShowDialog();
         }
     }
 }
