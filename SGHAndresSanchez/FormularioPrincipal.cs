@@ -31,7 +31,7 @@ namespace SGHAndresSanchez
             this.medicosTableAdapter.Fill(this.hospitalDataSet.medicos);
 
             cargarComboEspecialidad();
-            //timer1.Start();
+            timer1.Start();
 
         }
 
@@ -171,7 +171,7 @@ namespace SGHAndresSanchez
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            lblFechaHora.Text = DateTime.Now.ToLongDateString();
+            lblFechaHora.Text = DateTime.Now.ToString("G");
         }
 
         private void cbEspecialidad_SelectedIndexChanged_1(object sender, EventArgs e)
@@ -248,6 +248,38 @@ namespace SGHAndresSanchez
         {
             GestionPacientes gestionPacientes = new GestionPacientes();
             gestionPacientes.ShowDialog();
+        }
+
+        private void btnAnadirCita_Click(object sender, EventArgs e)
+        {
+            int posPaciente = cbPaciente.SelectedIndex;
+            int idPaciente = (int)idPacientes[posPaciente];
+
+            int posMedico = cbMedico.SelectedIndex;
+            int idMedico = (int)idMedicos[posMedico];
+
+            var aleatorio = new Random();
+            int clavePrimaria = aleatorio.Next(1,100000);
+
+            hospitalDataSet db = new hospitalDataSet();
+
+            DateTime fecha=DateTime.Parse(fechaDateTimePicker.Value.ToShortDateString());
+
+            hospitalDataSetTableAdapters.DataTable1TableAdapter DataTable1TableAdapter = new hospitalDataSetTableAdapters.DataTable1TableAdapter();
+            DataTable1TableAdapter.InsertCita(clavePrimaria, fecha, idPaciente,idMedico,"Aqui va el diagnostico");
+            MessageBox.Show("Se ha añadido la cita");
+        }
+
+        private void btnPacientesMedicoDia_Click(object sender, EventArgs e)
+        {
+            InformePacientes informePacientes = new InformePacientes();
+            informePacientes.ShowDialog();
+        }
+
+        private void btnHistorialClinico_Click(object sender, EventArgs e)
+        {
+            HistorialClinico historialClinico = new HistorialClinico();
+            historialClinico.ShowDialog();
         }
     }
 }

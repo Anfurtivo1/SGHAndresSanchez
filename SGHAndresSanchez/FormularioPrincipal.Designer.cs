@@ -251,6 +251,7 @@
             this.btnAnadirCita.TabIndex = 13;
             this.btnAnadirCita.Text = "Añadir cita";
             this.btnAnadirCita.UseVisualStyleBackColor = true;
+            this.btnAnadirCita.Click += new System.EventHandler(this.btnAnadirCita_Click);
             // 
             // idatencLabel1
             // 
@@ -281,10 +282,11 @@
             // lblFechaHora
             // 
             this.lblFechaHora.AutoSize = true;
-            this.lblFechaHora.Location = new System.Drawing.Point(60, 38);
+            this.lblFechaHora.Location = new System.Drawing.Point(37, 38);
             this.lblFechaHora.Name = "lblFechaHora";
-            this.lblFechaHora.Size = new System.Drawing.Size(0, 13);
+            this.lblFechaHora.Size = new System.Drawing.Size(13, 13);
             this.lblFechaHora.TabIndex = 0;
+            this.lblFechaHora.Text = "--";
             // 
             // btnPacientesMedicoDia
             // 
@@ -294,6 +296,7 @@
             this.btnPacientesMedicoDia.TabIndex = 3;
             this.btnPacientesMedicoDia.Text = "Pacientes medico/dia";
             this.btnPacientesMedicoDia.UseVisualStyleBackColor = true;
+            this.btnPacientesMedicoDia.Click += new System.EventHandler(this.btnPacientesMedicoDia_Click);
             // 
             // btnHistorialClinico
             // 
@@ -303,6 +306,7 @@
             this.btnHistorialClinico.TabIndex = 4;
             this.btnHistorialClinico.Text = "Historial Clinico";
             this.btnHistorialClinico.UseVisualStyleBackColor = true;
+            this.btnHistorialClinico.Click += new System.EventHandler(this.btnHistorialClinico_Click);
             // 
             // timer1
             // 
