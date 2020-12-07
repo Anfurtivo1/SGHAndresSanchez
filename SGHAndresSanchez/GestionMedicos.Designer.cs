@@ -33,9 +33,9 @@
             System.Windows.Forms.Label nombreLabel;
             System.Windows.Forms.Label apellidosLabel;
             System.Windows.Forms.Label movilLabel;
-            System.Windows.Forms.Label especialidadLabel;
             System.Windows.Forms.Label fotoLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionMedicos));
+            System.Windows.Forms.Label especialidadLabel1;
             this.btnFoto = new System.Windows.Forms.Button();
             this.hospitalDataSet = new SGHAndresSanchez.hospitalDataSet();
             this.medicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -59,13 +59,13 @@
             this.apellidosTextBox = new System.Windows.Forms.TextBox();
             this.movilTextBox = new System.Windows.Forms.TextBox();
             this.fotoPictureBox = new System.Windows.Forms.PictureBox();
-            this.especialidadTextBox = new System.Windows.Forms.TextBox();
+            this.especialidadComboBox = new System.Windows.Forms.ComboBox();
             idmedicoLabel = new System.Windows.Forms.Label();
             nombreLabel = new System.Windows.Forms.Label();
             apellidosLabel = new System.Windows.Forms.Label();
             movilLabel = new System.Windows.Forms.Label();
-            especialidadLabel = new System.Windows.Forms.Label();
             fotoLabel = new System.Windows.Forms.Label();
+            especialidadLabel1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.medicosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.medicosBindingNavigator)).BeginInit();
@@ -108,15 +108,6 @@
             movilLabel.Size = new System.Drawing.Size(34, 13);
             movilLabel.TabIndex = 25;
             movilLabel.Text = "movil:";
-            // 
-            // especialidadLabel
-            // 
-            especialidadLabel.AutoSize = true;
-            especialidadLabel.Location = new System.Drawing.Point(228, 150);
-            especialidadLabel.Name = "especialidadLabel";
-            especialidadLabel.Size = new System.Drawing.Size(69, 13);
-            especialidadLabel.TabIndex = 27;
-            especialidadLabel.Text = "especialidad:";
             // 
             // fotoLabel
             // 
@@ -186,7 +177,7 @@
             this.medicosBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.medicosBindingNavigator.Name = "medicosBindingNavigator";
             this.medicosBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.medicosBindingNavigator.Size = new System.Drawing.Size(429, 25);
+            this.medicosBindingNavigator.Size = new System.Drawing.Size(432, 25);
             this.medicosBindingNavigator.TabIndex = 19;
             this.medicosBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -244,7 +235,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Posición";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 25);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -330,20 +320,32 @@
             this.fotoPictureBox.TabIndex = 30;
             this.fotoPictureBox.TabStop = false;
             // 
-            // especialidadTextBox
+            // especialidadLabel1
             // 
-            this.especialidadTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.medicosBindingSource, "especialidad", true));
-            this.especialidadTextBox.Location = new System.Drawing.Point(303, 147);
-            this.especialidadTextBox.Name = "especialidadTextBox";
-            this.especialidadTextBox.Size = new System.Drawing.Size(100, 20);
-            this.especialidadTextBox.TabIndex = 28;
+            especialidadLabel1.AutoSize = true;
+            especialidadLabel1.Location = new System.Drawing.Point(228, 150);
+            especialidadLabel1.Name = "especialidadLabel1";
+            especialidadLabel1.Size = new System.Drawing.Size(69, 13);
+            especialidadLabel1.TabIndex = 30;
+            especialidadLabel1.Text = "especialidad:";
+            // 
+            // especialidadComboBox
+            // 
+            this.especialidadComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.medicosBindingSource, "especialidad", true));
+            this.especialidadComboBox.FormattingEnabled = true;
+            this.especialidadComboBox.Location = new System.Drawing.Point(303, 147);
+            this.especialidadComboBox.Name = "especialidadComboBox";
+            this.especialidadComboBox.Size = new System.Drawing.Size(100, 21);
+            this.especialidadComboBox.TabIndex = 31;
             // 
             // GestionMedicos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(429, 216);
+            this.ClientSize = new System.Drawing.Size(432, 216);
+            this.Controls.Add(especialidadLabel1);
+            this.Controls.Add(this.especialidadComboBox);
             this.Controls.Add(idmedicoLabel);
             this.Controls.Add(this.idmedicoLabel1);
             this.Controls.Add(nombreLabel);
@@ -352,8 +354,6 @@
             this.Controls.Add(this.apellidosTextBox);
             this.Controls.Add(movilLabel);
             this.Controls.Add(this.movilTextBox);
-            this.Controls.Add(especialidadLabel);
-            this.Controls.Add(this.especialidadTextBox);
             this.Controls.Add(fotoLabel);
             this.Controls.Add(this.fotoPictureBox);
             this.Controls.Add(this.medicosBindingNavigator);
@@ -396,6 +396,6 @@
         private System.Windows.Forms.TextBox apellidosTextBox;
         private System.Windows.Forms.TextBox movilTextBox;
         private System.Windows.Forms.PictureBox fotoPictureBox;
-        private System.Windows.Forms.TextBox especialidadTextBox;
+        private System.Windows.Forms.ComboBox especialidadComboBox;
     }
 }

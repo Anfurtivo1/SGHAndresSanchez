@@ -30,6 +30,7 @@ namespace SGHAndresSanchez
         {
             // TODO: esta línea de código carga datos en la tabla 'hospitalDataSet.medicos' Puede moverla o quitarla según sea necesario.
             this.medicosTableAdapter.Fill(this.hospitalDataSet.medicos);
+            cargarComboEspecialidad();
 
         }
 
@@ -85,6 +86,19 @@ namespace SGHAndresSanchez
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Se ha añadido el medico");
+        }
+
+        private void cargarComboEspecialidad()
+        {
+            hospitalDataSet db = new hospitalDataSet();
+            hospitalDataSetTableAdapters.especialidadesTableAdapter medicosTableAdapter = new hospitalDataSetTableAdapters.especialidadesTableAdapter();
+            medicosTableAdapter.FillByEspecialidad(db.especialidades);
+
+            for (int i = 0; i < db.especialidades.Count; i++)
+            {
+                especialidadComboBox.Items.Add(db.especialidades[i].especialidad);
+
+            }
         }
     }
 }

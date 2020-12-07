@@ -52,6 +52,25 @@ namespace SGHAndresSanchez
             
             
         }
+
+        private void cargarComboMedicosDGV()
+        {
+            hospitalDataSet db = new hospitalDataSet();
+            idMedicos.Clear();
+            cbNombre.Items.Clear();
+            hospitalDataSetTableAdapters.medicosTableAdapter medicosTableAdapter = new hospitalDataSetTableAdapters.medicosTableAdapter();
+            medicosTableAdapter.FillByNombre(db.medicos, cbEspecialidad.Text.ToString());
+
+            for (int i = 0; i < db.medicos.Count; i++)
+            {
+                cbNombre.Items.Add(db.medicos[i].nombre);
+                idMedicos.Add(db.medicos[i].idmedico);
+
+            }
+
+
+        }
+
         private void cargarComboEspecialidad()
         {
             hospitalDataSet db = new hospitalDataSet();
@@ -94,11 +113,11 @@ namespace SGHAndresSanchez
                 dataGridView1.Rows[0].Cells[1].Value = db.DataTable1[0].fecha.ToString();
                 dataGridView1.Rows[0].Cells[2].Value = db.DataTable1[0].nombre.ToString();
                 dataGridView1.Rows[0].Cells[3].Value = db.DataTable1[0].apellidos.ToString();
-                btnActualizarDiagnostico.Enabled = true;
+                dataGridView1.Rows[0].Cells[4].Value = db.DataTable1[0].diagnostico.ToString();
             }
             catch
             {
-                MessageBox.Show("Error al cargar las citas");
+                MessageBox.Show("Ese medico no tiene citas asignadas");
             }
 
             
@@ -195,6 +214,14 @@ namespace SGHAndresSanchez
 
         private void nombreComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int posMedico = cbNombre.SelectedIndex;
+            int idMedico = (int)idMedicos[posMedico];
+            hospitalDataSet db = new hospitalDataSet();
+            hospitalDataSetTableAdapters.medicosTableAdapter medicosTableAdapter = new hospitalDataSetTableAdapters.medicosTableAdapter();
+            medicosTableAdapter.FillById(db.medicos,idMedico);
+            lblIdMedico.Text = db.medicos[0].idmedico.ToString();
+            lblEspecialidad.Text = db.medicos[0].especialidad.ToString();
+
             cargarDGVDiagnosticos();
             
         }
@@ -207,11 +234,6 @@ namespace SGHAndresSanchez
             atencsmedicasTableAdapter.UpdateDiagnostico(dataGridView1.Rows[0].Cells[4].Value.ToString());
             MessageBox.Show("Se ha actualizado el registro");
            
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void cargarComboMedicosDiagnostico()
@@ -258,15 +280,12 @@ namespace SGHAndresSanchez
             int posMedico = cbMedico.SelectedIndex;
             int idMedico = (int)idMedicos[posMedico];
 
-            var aleatorio = new Random();
-            int clavePrimaria = aleatorio.Next(1,100000);
-
             hospitalDataSet db = new hospitalDataSet();
 
             DateTime fecha=DateTime.Parse(fechaDateTimePicker.Value.ToShortDateString());
 
             hospitalDataSetTableAdapters.DataTable1TableAdapter DataTable1TableAdapter = new hospitalDataSetTableAdapters.DataTable1TableAdapter();
-            DataTable1TableAdapter.InsertCita(clavePrimaria, fecha, idPaciente,idMedico,"Aqui va el diagnostico");
+            DataTable1TableAdapter.InsertCita(fecha, idPaciente,idMedico,"");
             MessageBox.Show("Se ha añadido la cita");
         }
 
@@ -280,6 +299,11 @@ namespace SGHAndresSanchez
         {
             HistorialClinico historialClinico = new HistorialClinico();
             historialClinico.ShowDialog();
+        }
+
+        private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            btnActualizarDiagnostico.Enabled = true;
         }
     }
 }
