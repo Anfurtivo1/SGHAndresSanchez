@@ -19,7 +19,9 @@ namespace SGHAndresSanchez
             InitializeComponent();
         }
 
-
+        /// <summary>
+        /// Se carga el formulario de los medicos
+        /// </summary>
         private void cargarComboMedicos()
         {
             hospitalDataSet db = new hospitalDataSet();
@@ -36,12 +38,20 @@ namespace SGHAndresSanchez
 
 
         }
-
+        /// <summary>
+        /// Al cargar el formulario se realizan las siguientes opciones
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void InformePacientes_Load(object sender, EventArgs e)
         {
             cargarComboMedicos();
         }
-
+        /// <summary>
+        /// Al pulsar en el botón buscar se realizaría una busqueda
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             

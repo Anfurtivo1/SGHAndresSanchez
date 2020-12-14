@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/32236fe3-0bea-4e6d-9b2e-a7ecd70a357c.htm" />
+  <HelpTOCNode Id="e0355d78-da4e-44c2-9251-b4bb19ae0490" Title="Version History" Url="html/48964ca3-c24d-4db2-a665-8dd01a459dcb.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/359e43ab-0cda-48d9-b6ba-6c909d4faecd.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="81035bca-4a2f-4094-9aa0-48c9b21581a6" Title="SGHAndresSanchez" Url="html/d8f4e5c8-d734-d182-7b61-7834fd819a1c.htm">
+    <HelpTOCNode Id="07e608ec-5d4d-4e0c-b37a-a6707411db32" Title="FormularioPrincipal Class" Url="html/f07001dd-b6c7-5a49-91f5-6649db6b6c3c.htm">
+      <HelpTOCNode Title="FormularioPrincipal Constructor " Url="html/19812402-4816-f53b-b556-3d68e088dc87.htm" />
+      <HelpTOCNode Id="1de4a1d2-b0cc-4146-a675-099b0e50b569" Title="FormularioPrincipal Methods" Url="html/c4a40fa5-a640-adff-1ccf-9e50a839a63a.htm">
+        <HelpTOCNode Title="btnActualizarDiagnostico_Click Method " Url="html/17a6dd41-a9eb-b447-e4b8-f89ef98e5d8a.htm" />
+        <HelpTOCNode Title="btnAnadirCita_Click Method " Url="html/201b5324-b74e-1404-721b-d81c5d4a152a.htm" />
+        <HelpTOCNode Title="btnGestionMedicos_Click Method " Url="html/fae00b04-6d81-b9d7-d2b1-b3bc8910d52e.htm" />
+        <HelpTOCNode Title="btnGestionPacientes_Click Method " Url="html/ab7835d7-252c-5e8a-a280-eaf927468081.htm" />
+        <HelpTOCNode Title="btnHistorialClinico_Click Method " Url="html/8cc14730-8ee5-c96c-7be4-01a06d8f9361.htm" />
+        <HelpTOCNode Title="btnPacientesMedicoDia_Click Method " Url="html/d1177281-e748-2fa7-3a35-39400e67a7af.htm" />
+        <HelpTOCNode Title="cargarComboEspecialidad Method " Url="html/e74f833e-1dd0-8074-02fe-ab0cdc5bf0bb.htm" />
+        <HelpTOCNode Title="cargarComboMedicos Method " Url="html/fd270536-ae15-294a-084e-027b5c38dfae.htm" />
+        <HelpTOCNode Title="cargarComboMedicosDGV Method " Url="html/983f0639-eaa5-675a-42e7-5accf559147d.htm" />
+        <HelpTOCNode Title="cargarComboMedicosDiagnostico Method " Url="html/3e4aa279-dff7-be8c-4bd0-f516d7f43681.htm" />
+        <HelpTOCNode Title="cargarComboPacientes Method " Url="html/e20ec25f-e41b-f791-a83f-c891adc18d98.htm" />
+        <HelpTOCNode Title="cargarDGVDiagnosticos Method " Url="html/784b1bbe-f115-dde5-b0f6-3d89e1033fc3.htm" />
+        <HelpTOCNode Title="cargarPanelMedicos Method " Url="html/0d1d6b25-bb73-32f5-caf7-e52536d30b7d.htm" />
+        <HelpTOCNode Title="cargarPanelPacientes Method " Url="html/de6e7ae6-f3a9-2380-36e0-e1ec544da6eb.htm" />
+        <HelpTOCNode Title="cbEspecialidad_SelectedIndexChanged_1 Method " Url="html/594bfb6c-b12f-ad78-b399-9cdf610f5b6a.htm" />
+        <HelpTOCNode Title="cbMedico_SelectedIndexChanged Method " Url="html/b50f91d2-501f-9dac-45b5-b03d0fe9d0d8.htm" />
+        <HelpTOCNode Title="cbNombre_MouseClick Method " Url="html/252ec5f8-9a95-1cc7-6aa5-32b634f02847.htm" />
+        <HelpTOCNode Title="cbPaciente_SelectedIndexChanged_1 Method " Url="html/6cdc7454-52c6-08aa-6821-f91e1e1fd310.htm" />
+        <HelpTOCNode Title="dataGridView1_CellValueChanged Method " Url="html/28c406d8-b0fb-5f57-d6ab-7a0cf8982a1f.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/51df62be-1582-939b-a092-d9cfb4608a05.htm" />
+        <HelpTOCNode Title="FormularioPrincipal_Load Method " Url="html/44c7cf93-16d4-71f9-8bcc-1053a4747fb3.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/f7e4a8a5-fe61-2125-ee55-8588de7d7600.htm" />
+        <HelpTOCNode Title="nombreComboBox_SelectedIndexChanged Method " Url="html/2dfbb60b-de92-6c75-03b0-1d389bb4ece9.htm" />
+        <HelpTOCNode Title="timer1_Tick Method " Url="html/db21a43a-7f6d-57e1-440f-5073e4987a23.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0102e531-9405-4d50-9187-9763d93c624f" Title="FormularioPrincipal Fields" Url="html/413b980b-7b2c-3642-b659-899389b7c717.htm">
+        <HelpTOCNode Title="adestacarTextBox Field" Url="html/6b3be9dd-733b-ecb2-52c3-f555d33a9883.htm" />
+        <HelpTOCNode Title="alergiasTextBox Field" Url="html/fc6e2bb6-a57a-94fe-4a3c-bfbdee4e2696.htm" />
+        <HelpTOCNode Title="apellidosDataGridViewTextBoxColumn Field" Url="html/a5710a84-29d4-ef5e-1c60-6c92db8c0938.htm" />
+        <HelpTOCNode Title="apellidosTextBox Field" Url="html/d44460e6-d720-e62e-b7f0-344f4f3adc29.htm" />
+        <HelpTOCNode Title="apellidosTextBox1 Field" Url="html/a2d0f9c5-2821-eb98-7570-d79b586e2b3e.htm" />
+        <HelpTOCNode Title="atencsmedicasBindingSource Field" Url="html/08cc8808-49ba-ce02-93e8-76e8837a97c7.htm" />
+        <HelpTOCNode Title="atencsmedicasTableAdapter Field" Url="html/bf8cc908-89cf-fe31-2e1a-552068eb0bed.htm" />
+        <HelpTOCNode Title="btnActualizarDiagnostico Field" Url="html/e72f29bb-4be2-0a52-42d6-8a3b39f6e2ce.htm" />
+        <HelpTOCNode Title="btnAnadirCita Field" Url="html/73151b40-964a-148b-e745-bdcecd4895ce.htm" />
+        <HelpTOCNode Title="btnGestionMedicos Field" Url="html/ab3a7b3b-55f2-64d7-ca15-b6feba813951.htm" />
+        <HelpTOCNode Title="btnGestionPacientes Field" Url="html/ab06424f-d952-d21c-b78e-2a3779de8847.htm" />
+        <HelpTOCNode Title="btnHistorialClinico Field" Url="html/3b9c3577-8301-3d89-dfa9-08356a334b35.htm" />
+        <HelpTOCNode Title="btnPacientesMedicoDia Field" Url="html/59af56a4-66b3-4b48-1f26-bdbefd7791a1.htm" />
+        <HelpTOCNode Title="cbEspecialidad Field" Url="html/04d015f9-01b1-f3fc-d560-ddd079d0862d.htm" />
+        <HelpTOCNode Title="cbMedico Field" Url="html/7728509c-85ab-dd99-b689-689785a12658.htm" />
+        <HelpTOCNode Title="cbNombre Field" Url="html/e99a839c-11dc-aa19-09ea-ca02198317d0.htm" />
+        <HelpTOCNode Title="cbPaciente Field" Url="html/a3563bdd-cff7-4548-4853-cad8fe168555.htm" />
+        <HelpTOCNode Title="components Field" Url="html/68ff443e-d925-9f4f-7d8a-b26d87a23eb2.htm" />
+        <HelpTOCNode Title="dataGridViewTextBoxColumn6 Field" Url="html/57d962e2-3ae3-a73d-e75d-bae91a18f4f7.htm" />
+        <HelpTOCNode Title="diagnosticoDataGridViewTextBoxColumn Field" Url="html/35858f00-5d9c-a5fc-c14d-62cd4bb730d9.htm" />
+        <HelpTOCNode Title="diagnosticosBindingSource Field" Url="html/3537c7f2-dec9-f5f5-043b-280e87c15fba.htm" />
+        <HelpTOCNode Title="diagnosticosDataGridView Field" Url="html/3efc5a1c-4ca2-3718-a3f3-3de4c2cfb6c3.htm" />
+        <HelpTOCNode Title="diagnosticosTableAdapter Field" Url="html/24bed6ab-e1b7-2b34-05bd-623e835f5a52.htm" />
+        <HelpTOCNode Title="especialidadDataGridViewTextBoxColumn Field" Url="html/9564d4f7-60d0-8fef-a5eb-8a1fd06d7e5f.htm" />
+        <HelpTOCNode Title="especialidadTextBox Field" Url="html/20ae4435-3720-c402-2330-539c5c52c1de.htm" />
+        <HelpTOCNode Title="fechaDataGridViewTextBoxColumn Field" Url="html/1e95d6e6-80fd-de5b-d2ed-4af8fb3a95c9.htm" />
+        <HelpTOCNode Title="fechaDateTimePicker Field" Url="html/e111b6af-919a-3ba6-3c5d-5847e5bf7f36.htm" />
+        <HelpTOCNode Title="hospitalDataSet Field" Url="html/f965f5d5-3ef0-ddcb-a124-c5f91ac57018.htm" />
+        <HelpTOCNode Title="idatencDataGridViewTextBoxColumn Field" Url="html/f5353a80-e927-2342-beef-d0a1cdf487be.htm" />
+        <HelpTOCNode Title="idatencLabel1 Field" Url="html/78e9c28d-8312-876d-59e1-5f2d5f38e0d5.htm" />
+        <HelpTOCNode Title="idmedicoDataGridViewTextBoxColumn Field" Url="html/9206d625-313e-867b-dc16-40f3e7cf15cd.htm" />
+        <HelpTOCNode Title="idmedicoLabel1 Field" Url="html/e76bec05-5b9b-ece6-2209-33a82dca9971.htm" />
+        <HelpTOCNode Title="idMedicos Field" Url="html/bbd431cb-e696-7f7d-5f36-411f0b2247ff.htm" />
+        <HelpTOCNode Title="idPacientes Field" Url="html/ccd9c5b7-9a11-25a9-ac57-ee3abb151a40.htm" />
+        <HelpTOCNode Title="idpacienteTextBox Field" Url="html/59a59ce1-58d9-334f-ad2c-ba0c94b49b65.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/46427d38-ed2b-9262-0649-d4bf4702bece.htm" />
+        <HelpTOCNode Title="label2 Field" Url="html/9fe366a1-0b9e-77a9-6549-e18cf916f924.htm" />
+        <HelpTOCNode Title="label3 Field" Url="html/9b255875-0102-06cf-d1fd-a64f9996381c.htm" />
+        <HelpTOCNode Title="label4 Field" Url="html/15fd9eae-f663-b24e-18f6-7a5495f421ee.htm" />
+        <HelpTOCNode Title="label5 Field" Url="html/82cbf3b2-ea4c-0c17-e19f-b7825c571c5d.htm" />
+        <HelpTOCNode Title="label6 Field" Url="html/5db254cc-3611-9cbe-8dee-4fb245c5a5d4.htm" />
+        <HelpTOCNode Title="label7 Field" Url="html/917069be-774a-1010-b8e6-fb6959a71d51.htm" />
+        <HelpTOCNode Title="label8 Field" Url="html/6f059d18-3277-b863-78a3-4783de72c726.htm" />
+        <HelpTOCNode Title="lblEspecialidad Field" Url="html/24bf36c8-53e8-90ba-35a9-78b949bb62c0.htm" />
+        <HelpTOCNode Title="lblFechaHora Field" Url="html/f5b653da-a52d-f70a-6efb-5e4063095fb7.htm" />
+        <HelpTOCNode Title="lblIdMedico Field" Url="html/c7526803-68b7-4946-91f9-799d6a5e63eb.htm" />
+        <HelpTOCNode Title="localidadTextBox Field" Url="html/3ce0a608-3379-09e6-4eb2-e8600fce046f.htm" />
+        <HelpTOCNode Title="medicosBindingSource Field" Url="html/6f77f32e-1aa5-46ca-9caf-26af9b0999d9.htm" />
+        <HelpTOCNode Title="medicosTableAdapter Field" Url="html/c7ddfd26-d8af-1843-cfa9-e147c23a1106.htm" />
+        <HelpTOCNode Title="movilTextBox Field" Url="html/31b46c82-676c-b4f9-03d3-63e0880032d0.htm" />
+        <HelpTOCNode Title="nombreDataGridViewTextBoxColumn Field" Url="html/bc96b271-15a9-baa9-d16c-35707afe4707.htm" />
+        <HelpTOCNode Title="nombreTextBox Field" Url="html/b504d662-c295-cb19-da7d-1739990426e3.htm" />
+        <HelpTOCNode Title="nombreTextBox1 Field" Url="html/5d6f0e91-1667-d9a5-70ef-9866cbf5822a.htm" />
+        <HelpTOCNode Title="pacientesBindingSource Field" Url="html/c850f1fe-23b5-c36b-3b8c-07dd9e62f7e9.htm" />
+        <HelpTOCNode Title="pacientesTableAdapter Field" Url="html/1728bc77-aab7-1115-c858-89ffd913d77c.htm" />
+        <HelpTOCNode Title="panel1 Field" Url="html/ee482afe-ab0c-0c83-7401-bd7c2449ebe4.htm" />
+        <HelpTOCNode Title="panel2 Field" Url="html/4b0b0949-4ef1-d5f4-6035-2e0d60546a03.htm" />
+        <HelpTOCNode Title="panel3 Field" Url="html/9a9b2f77-4b70-4c22-a4ef-debcf37209b9.htm" />
+        <HelpTOCNode Title="panel4 Field" Url="html/88044114-3e43-3a08-187f-642b8127b090.htm" />
+        <HelpTOCNode Title="panel5 Field" Url="html/17ea82f3-c97e-6d38-f0d6-746836b77d68.htm" />
+        <HelpTOCNode Title="panel6 Field" Url="html/94e0e94b-b49f-f001-c27c-a213cedb2eec.htm" />
+        <HelpTOCNode Title="pictureBox1 Field" Url="html/41668ddf-a082-be9c-eb60-4b707af3ec96.htm" />
+        <HelpTOCNode Title="pictureBox2 Field" Url="html/4a48c4fd-4cbc-7b3e-e1ef-60cb0829f68a.htm" />
+        <HelpTOCNode Title="pictureBox3 Field" Url="html/32e4f242-6b77-d889-568f-ddd433129dab.htm" />
+        <HelpTOCNode Title="pictureBox4 Field" Url="html/bcde6e4e-9884-02df-c0b2-8c0328b99490.htm" />
+        <HelpTOCNode Title="pictureBox5 Field" Url="html/ec4c3c76-af28-dd66-604a-8c5ef8228470.htm" />
+        <HelpTOCNode Title="tableAdapterManager Field" Url="html/2ffdb04c-b274-246a-30dd-07725944ca6f.htm" />
+        <HelpTOCNode Title="timer1 Field" Url="html/a4d1a87c-69a0-a6f0-4c8a-c09cc920c34f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fb158a3a-be64-425e-aadd-3c62291ec64e" Title="GestionMedicos Class" Url="html/9e4ac8c7-d678-85bc-655b-a7888359396c.htm">
+      <HelpTOCNode Title="GestionMedicos Constructor " Url="html/f418a888-c173-74b6-055d-075b9e4ab9a2.htm" />
+      <HelpTOCNode Id="77d3b555-aaa9-4a3f-bbfb-1e4d496dcdef" Title="GestionMedicos Methods" Url="html/508a95c0-8ef9-9cbc-24fb-ea30eb589c62.htm">
+        <HelpTOCNode Title="bindingNavigatorAddNewItem_Click Method " Url="html/f847a6c1-f487-0adf-ff06-ccea06b4fa7a.htm" />
+        <HelpTOCNode Title="bindingNavigatorDeleteItem_Click Method " Url="html/fcfc7b8b-3c50-3668-1149-9b0887ab1b73.htm" />
+        <HelpTOCNode Title="btnFoto_Click Method " Url="html/e55508cb-432e-24eb-a6bc-8c2f52d2001c.htm" />
+        <HelpTOCNode Title="cargarComboEspecialidad Method " Url="html/0a39b897-9855-85db-7a5b-2246dddca84a.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/179fe638-18bf-5ae1-c168-65d47ec9f94a.htm" />
+        <HelpTOCNode Title="GestionMedicos_Load Method " Url="html/a8379090-5760-f393-f50b-828b646feb04.htm" />
+        <HelpTOCNode Title="imageToByteArray Method " Url="html/09b0a78b-c7c2-dce6-3a35-6500c15075cb.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/76ab7504-038e-b87f-edf0-a5139a88a26d.htm" />
+        <HelpTOCNode Title="medicosBindingNavigatorSaveItem_Click Method " Url="html/28fc809d-84be-8790-a150-f845a58c509f.htm" />
+        <HelpTOCNode Title="medicosBindingNavigatorSaveItem_Click_1 Method " Url="html/2d4dc436-01ec-f419-b616-3bacfcf3ec62.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="daa0850d-7464-4ef7-862b-cbc396961dff" Title="GestionMedicos Fields" Url="html/a65ae58b-8e99-bc6b-4abd-aa1667276b2b.htm">
+        <HelpTOCNode Title="apellidosTextBox Field" Url="html/ed42558e-bb1b-6c99-3081-e41875603717.htm" />
+        <HelpTOCNode Title="bindingNavigatorAddNewItem Field" Url="html/dd3ec1ea-642a-c05a-77e1-d78adf37c0bf.htm" />
+        <HelpTOCNode Title="bindingNavigatorCountItem Field" Url="html/819a171e-fdc1-ed91-d22a-6efb2ebe3e1b.htm" />
+        <HelpTOCNode Title="bindingNavigatorDeleteItem Field" Url="html/2ffacf90-8516-f411-c68a-3ee26583b502.htm" />
+        <HelpTOCNode Title="bindingNavigatorMoveFirstItem Field" Url="html/1ef75fe5-33fa-769d-b94a-25aa5961f0b0.htm" />
+        <HelpTOCNode Title="bindingNavigatorMoveLastItem Field" Url="html/7cb40522-6495-c268-c942-418c883d362d.htm" />
+        <HelpTOCNode Title="bindingNavigatorMoveNextItem Field" Url="html/5c624e45-d52d-9f52-bf37-f82dc8e7f7ff.htm" />
+        <HelpTOCNode Title="bindingNavigatorMovePreviousItem Field" Url="html/b546d0a7-1ef4-1d40-4056-97d7014f68a5.htm" />
+        <HelpTOCNode Title="bindingNavigatorPositionItem Field" Url="html/e4fee1cf-afc2-9336-1646-a3be687da763.htm" />
+        <HelpTOCNode Title="bindingNavigatorSeparator Field" Url="html/10e6182e-40aa-a5a8-fce4-53f6b3a2d681.htm" />
+        <HelpTOCNode Title="bindingNavigatorSeparator1 Field" Url="html/63824071-09ed-4e90-cd43-9f4334555d65.htm" />
+        <HelpTOCNode Title="bindingNavigatorSeparator2 Field" Url="html/f6b23136-c6ac-3e25-c1d8-4ce311137801.htm" />
+        <HelpTOCNode Title="btnFoto Field" Url="html/0c7881ec-ac6e-76c2-dff2-ab938de537a0.htm" />
+        <HelpTOCNode Title="components Field" Url="html/45798a0f-1b24-bd57-de96-06b028c62a3f.htm" />
+        <HelpTOCNode Title="especialidadComboBox Field" Url="html/5ac73bcd-df79-7a23-0776-8fc530574f6c.htm" />
+        <HelpTOCNode Title="fotoPictureBox Field" Url="html/9fc13e71-370c-eb0d-6abd-cb631489a0fd.htm" />
+        <HelpTOCNode Title="hospitalDataSet Field" Url="html/bcb0fac9-3d46-096f-e6e1-a85b89cceb1a.htm" />
+        <HelpTOCNode Title="idmedicoLabel1 Field" Url="html/04914dd9-324b-4cc7-3c9e-5876b4c5f56e.htm" />
+        <HelpTOCNode Title="medicosBindingNavigator Field" Url="html/dc9dcd90-8ea8-9373-9ae6-18531bc62599.htm" />
+        <HelpTOCNode Title="medicosBindingNavigatorSaveItem Field" Url="html/a69bb690-6d39-dd88-27bc-cca01813cf52.htm" />
+        <HelpTOCNode Title="medicosBindingSource Field" Url="html/f96727ab-22a3-ec3e-1c4c-794e26e6b1bf.htm" />
+        <HelpTOCNode Title="medicosTableAdapter Field" Url="html/f8d8a372-a01c-fc16-e0f2-21e06ffebbb7.htm" />
+        <HelpTOCNode Title="movilTextBox Field" Url="html/4dee18c6-8f6f-4996-26a9-9e88b92f6c93.htm" />
+        <HelpTOCNode Title="nombreTextBox Field" Url="html/546b7aa4-517b-aca3-62f1-5630654e3726.htm" />
+        <HelpTOCNode Title="tableAdapterManager Field" Url="html/a5b522b9-e08a-211a-d6f0-765ae30f0019.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="59f3a632-fba8-4a19-bab4-855eb34268d0" Title="GestionPacientes Class" Url="html/d40b13f7-fb8d-6976-2abb-1c73b3769108.htm">
+      <HelpTOCNode Title="GestionPacientes Constructor " Url="html/45b141b7-a79b-3051-dce7-abe896aa84e5.htm" />
+      <HelpTOCNode Id="3cd39dae-b68c-43da-badf-4d40dabbf262" Title="GestionPacientes Methods" Url="html/ce58add9-cd55-3753-aa13-e36c3a0c35cf.htm">
+        <HelpTOCNode Title="bindingNavigatorAddNewItem_Click Method " Url="html/0c0dd0aa-5702-ac8a-759f-f029bde611e4.htm" />
+        <HelpTOCNode Title="bindingNavigatorDeleteItem_Click Method " Url="html/39daedfa-9a51-cdee-def7-b3fcb4b59abb.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/38989755-05da-0685-8a22-196655d5d9fb.htm" />
+        <HelpTOCNode Title="GestionPacientes_Load Method " Url="html/51befd3b-c457-4988-21d3-b437fc07f414.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/94736e42-df4b-ad79-f5e3-19edb60b60ef.htm" />
+        <HelpTOCNode Title="pacientesBindingNavigatorSaveItem_Click Method " Url="html/21004e08-2f79-9458-9308-a5f424b80276.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4fa37556-3ff6-488c-80cb-6698c6168c24" Title="GestionPacientes Fields" Url="html/035b63af-33ca-7ddc-cfe5-13447e6c80b1.htm">
+        <HelpTOCNode Title="adestacarTextBox Field" Url="html/36b50574-eb5f-7b48-ff7c-ab0868735327.htm" />
+        <HelpTOCNode Title="alergiasTextBox Field" Url="html/cda8a56b-c89a-94bb-807b-9711c163ded1.htm" />
+        <HelpTOCNode Title="apellidosTextBox Field" Url="html/e2a4505d-7b28-f7de-215b-b508faf12344.htm" />
+        <HelpTOCNode Title="bindingNavigatorAddNewItem Field" Url="html/9698313c-16f5-345f-1e67-abfd6aec1c2d.htm" />
+        <HelpTOCNode Title="bindingNavigatorCountItem Field" Url="html/50f110c1-5db9-2be4-7736-2743513aef5c.htm" />
+        <HelpTOCNode Title="bindingNavigatorDeleteItem Field" Url="html/fa8889af-fb4e-db47-a673-8dc16fa37baa.htm" />
+        <HelpTOCNode Title="bindingNavigatorMoveFirstItem Field" Url="html/d805f3a7-985e-8df8-d232-7fb9bfbfd862.htm" />
+        <HelpTOCNode Title="bindingNavigatorMoveLastItem Field" Url="html/edaeb3ef-b0df-3945-e843-80c49b1dab53.htm" />
+        <HelpTOCNode Title="bindingNavigatorMoveNextItem Field" Url="html/6735ec10-b0b6-1980-c21c-f51173b0a8d9.htm" />
+        <HelpTOCNode Title="bindingNavigatorMovePreviousItem Field" Url="html/707e7373-5c29-465f-c049-58753f358eb7.htm" />
+        <HelpTOCNode Title="bindingNavigatorPositionItem Field" Url="html/8ee16656-cee7-5962-4827-910e4769aa0c.htm" />
+        <HelpTOCNode Title="bindingNavigatorSeparator Field" Url="html/20228f28-e4eb-ffe9-31ee-f63a474dec9a.htm" />
+        <HelpTOCNode Title="bindingNavigatorSeparator1 Field" Url="html/5e958d9a-fb37-23d8-ad63-9e1d33b593e9.htm" />
+        <HelpTOCNode Title="bindingNavigatorSeparator2 Field" Url="html/de7ef6c0-1c20-dc51-30b6-52d5b47920a2.htm" />
+        <HelpTOCNode Title="components Field" Url="html/5f9768cf-5403-e6fc-ba73-4185cfb437f2.htm" />
+        <HelpTOCNode Title="hospitalDataSet Field" Url="html/28c9ef81-98a8-77ed-936e-a476b4a25120.htm" />
+        <HelpTOCNode Title="idpacienteTextBox Field" Url="html/8282d71a-7a73-efab-8bfc-ef3cfc95f0f0.htm" />
+        <HelpTOCNode Title="localidadTextBox Field" Url="html/2e89f622-e790-d59d-2e3d-4fbeb8ef1dfd.htm" />
+        <HelpTOCNode Title="nombreTextBox Field" Url="html/cc76aeb1-f916-9604-af6d-ddc7ca65813e.htm" />
+        <HelpTOCNode Title="pacientesBindingNavigator Field" Url="html/94f2c12f-3902-c76a-c0e5-acb1683eab6a.htm" />
+        <HelpTOCNode Title="pacientesBindingNavigatorSaveItem Field" Url="html/db2cdd4a-6a95-b3af-75c5-2e0f749fc36a.htm" />
+        <HelpTOCNode Title="pacientesBindingSource Field" Url="html/e81093c8-fddc-977e-872b-9961992ccf26.htm" />
+        <HelpTOCNode Title="pacientesTableAdapter Field" Url="html/10e10dbc-dc00-f1e4-8d69-00b31e6ab999.htm" />
+        <HelpTOCNode Title="tableAdapterManager Field" Url="html/8730fcb1-a62d-38ee-5870-eea70e63ba8d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9b9fe0a3-f311-4a95-ac7a-d8968d38c223" Title="HistorialClinico Class" Url="html/f7041d7e-b1e3-3f8f-272e-234e6db5818d.htm">
+      <HelpTOCNode Title="HistorialClinico Constructor " Url="html/c6757599-fb10-92e1-8764-13f3ef3d67e5.htm" />
+      <HelpTOCNode Id="6c07b7a6-c9b2-42c5-8f76-8e230c64c105" Title="HistorialClinico Methods" Url="html/63871585-b4a8-029b-a25b-aab0ee035b16.htm">
+        <HelpTOCNode Title="cargarDataGridView Method " Url="html/ec9df093-7962-29ae-8358-0a86792fc084.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/201eed10-b35c-c1cc-8b9d-218b6be77f75.htm" />
+        <HelpTOCNode Title="HistorialClinico_Load Method " Url="html/ca450917-ca17-e2f4-604c-259d85b702c1.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/27ccfd9c-f407-bbb8-8deb-07b5a913a213.htm" />
+        <HelpTOCNode Title="llenarComboPacientes Method " Url="html/64aaa736-991e-ef55-d5d2-bcc32ec545d9.htm" />
+        <HelpTOCNode Title="nombreComboBox_SelectedIndexChanged Method " Url="html/900a315c-94ca-7ba1-18a8-9ecbb1b600e5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fd6bdb29-88ed-4704-96e6-3412c4ee7921" Title="HistorialClinico Fields" Url="html/402e4787-c748-1817-461f-6e752869c9e6.htm">
+        <HelpTOCNode Title="components Field" Url="html/49bb0edb-410c-07d6-b932-c515333608c4.htm" />
+        <HelpTOCNode Title="DGVHistorial Field" Url="html/220ba295-7d23-5067-f587-f772f82fac03.htm" />
+        <HelpTOCNode Title="idPacientes Field" Url="html/2cebb095-c598-e417-2406-a5aa474d2b35.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/b9786fd2-868d-1275-d2ba-2b2b1374dc59.htm" />
+        <HelpTOCNode Title="listaPacientes Field" Url="html/888fc353-fa67-8fb1-e394-f2f43557f817.htm" />
+        <HelpTOCNode Title="nombreComboBox Field" Url="html/e71e8266-b091-05b9-522a-69080505f3ff.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b531e66-c07c-4b2c-8a44-d9729467b34e" Title="hospitalDataSet Class" Url="html/5757d6df-8b37-2d75-d462-df3e85dcf941.htm">
+      <HelpTOCNode Id="55b498ee-df85-4282-8a35-854248644ae2" Title="hospitalDataSet Constructor " Url="html/f57cf381-e473-ad63-b780-c5fd1f950592.htm">
+        <HelpTOCNode Title="hospitalDataSet Constructor " Url="html/371e1d6b-7486-9d5c-1be1-8f6f03af1846.htm" />
+        <HelpTOCNode Title="hospitalDataSet Constructor (SerializationInfo, StreamingContext)" Url="html/1657c0b2-6877-708d-96f2-a5c0c2bc0015.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="46903f64-31d2-4f03-921d-0bcc54b7742e" Title="hospitalDataSet Properties" Url="html/2b575216-e69f-2bd4-5950-71d0028bd65f.htm">
+        <HelpTOCNode Title="atencsmedicas Property " Url="html/7eab3939-4e1d-f737-93c4-844e5278dedd.htm" />
+        <HelpTOCNode Title="Diagnosticos Property " Url="html/59ba183c-6ae8-2e48-fe39-02f3dc6b1fa3.htm" />
+        <HelpTOCNode Title="especialidades Property " Url="html/95a34ca1-128c-67e2-7c1b-82980426b04e.htm" />
+        <HelpTOCNode Title="Historial Property " Url="html/2bfefdb6-e25c-9818-fcfc-dfc3a7032dfe.htm" />
+        <HelpTOCNode Title="medicos Property " Url="html/13bfc029-6c89-895c-0a64-a8fe09c5e6d2.htm" />
+        <HelpTOCNode Title="pacientes Property " Url="html/acf8c812-d7ee-cb7f-b287-4a06116ba6da.htm" />
+        <HelpTOCNode Title="Relations Property " Url="html/cd30f1cd-b13a-a5c1-dfbb-85c88a253bfa.htm" />
+        <HelpTOCNode Title="SchemaSerializationMode Property " Url="html/57685199-0e50-373f-4fc4-0097255ef6f3.htm" />
+        <HelpTOCNode Title="Tables Property " Url="html/b242d426-6c26-8606-d504-ba91210e0594.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="48827696-c048-4f9d-b158-420962aa00a7" Title="hospitalDataSet Methods" Url="html/146c898b-c175-dfd8-6f2b-f49b0dcd54bf.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/acccf315-87b5-39f6-3871-8e1f63821042.htm" />
+        <HelpTOCNode Title="GetSchemaSerializable Method " Url="html/f400fe2b-c5a7-6470-3298-a9bf6ae5af60.htm" />
+        <HelpTOCNode Title="GetTypedDataSetSchema Method " Url="html/4524c01f-21d9-11d5-e828-1a47f143c6a5.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/c2305ff4-fdb9-3e58-a52e-8b2c789009af.htm" />
+        <HelpTOCNode Title="InitializeDerivedDataSet Method " Url="html/8dcedf28-ee79-f8c2-7ddd-1e05c1899fbb.htm" />
+        <HelpTOCNode Id="8b06ff3c-c5c6-4038-8f28-a7f289878aa3" Title="InitVars Method " Url="html/00ea8765-e550-c592-bed7-b1fb3e677b53.htm">
+          <HelpTOCNode Title="InitVars Method " Url="html/026e7698-d586-af06-732b-1d1c9fc3e6bc.htm" />
+          <HelpTOCNode Title="InitVars Method (Boolean)" Url="html/c671dec9-6075-b54f-f663-0785a3c83493.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ReadXmlSerializable Method " Url="html/4483085c-d1e3-db8a-6a88-e0626c55d65c.htm" />
+        <HelpTOCNode Title="SchemaChanged Method " Url="html/4fb21f64-6e8b-6fa8-2ade-f14ef17ec545.htm" />
+        <HelpTOCNode Title="ShouldSerializeatencsmedicas Method " Url="html/77d86a86-1d18-d528-81e2-118946a618d4.htm" />
+        <HelpTOCNode Title="ShouldSerializeDiagnosticos Method " Url="html/a67c72ac-5492-3df7-80a3-f47048e1353f.htm" />
+        <HelpTOCNode Title="ShouldSerializeespecialidades Method " Url="html/3b689fbf-24ae-8a27-2c01-682090ad79d6.htm" />
+        <HelpTOCNode Title="ShouldSerializeHistorial Method " Url="html/eba54176-7c7d-21b8-1dad-4459d82d2763.htm" />
+        <HelpTOCNode Title="ShouldSerializemedicos Method " Url="html/d90f8f0d-0e09-40c0-ee99-e60ef8e50ff3.htm" />
+        <HelpTOCNode Title="ShouldSerializepacientes Method " Url="html/7d80cea5-5649-3869-4ecf-5e485125183c.htm" />
+        <HelpTOCNode Title="ShouldSerializeRelations Method " Url="html/7983062a-df32-a5f4-18ea-618c45e0fe72.htm" />
+        <HelpTOCNode Title="ShouldSerializeTables Method " Url="html/a984f722-f8e1-0c79-91fb-e388ac34b0ff.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="11ad57a3-c2f2-4562-a393-8b7a6cdee8bb" Title="hospitalDataSet Fields" Url="html/a7e001b3-774c-828d-07b0-f894cbb89e6c.htm">
+        <HelpTOCNode Title="_schemaSerializationMode Field" Url="html/bd3ee32d-28d4-8c8a-b138-2f172d1dae47.htm" />
+        <HelpTOCNode Title="relationatencsmedicas_ibfk_1 Field" Url="html/26f0f508-4d40-2cdf-b95c-4a494daae148.htm" />
+        <HelpTOCNode Title="relationatencsmedicas_ibfk_2 Field" Url="html/e9389ac2-3ba5-f25e-607a-49b0acab78ca.htm" />
+        <HelpTOCNode Title="relationatencsmedicas_ibfk_21 Field" Url="html/41829dbe-4933-8069-8611-5627c2075ac5.htm" />
+        <HelpTOCNode Title="relationmedicos_ibfk_1 Field" Url="html/d7700219-cc2f-ba03-4d1d-73fcb60be344.htm" />
+        <HelpTOCNode Title="tableatencsmedicas Field" Url="html/349779fd-2ac4-aa7d-2706-042b15701355.htm" />
+        <HelpTOCNode Title="tableDiagnosticos Field" Url="html/8f96d87f-8f8e-3167-a70c-c6c4f4a44b76.htm" />
+        <HelpTOCNode Title="tableespecialidades Field" Url="html/0e358695-07fd-588f-bb9f-aade7b43182a.htm" />
+        <HelpTOCNode Title="tableHistorial Field" Url="html/eb078916-7b35-19d3-6dcb-703284b5ec03.htm" />
+        <HelpTOCNode Title="tablemedicos Field" Url="html/fd55f8dc-d693-5e1f-8374-7fd0de565c41.htm" />
+        <HelpTOCNode Title="tablepacientes Field" Url="html/2c3cd766-78eb-a726-19e6-f19176f62a50.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a632cf3b-2c54-4640-98fd-01227149f143" Title="hospitalDataSet.atencsmedicasDataTable Class" Url="html/49d42d34-bd11-06e7-e02e-b1bf271b480c.htm">
+      <HelpTOCNode Id="f6031e8c-43c6-40ba-8f2c-b030a678fd08" Title="atencsmedicasDataTable Constructor " Url="html/33a3e7bc-f040-38ec-c686-03c71a78fa7e.htm">
+        <HelpTOCNode Title="hospitalDataSet.atencsmedicasDataTable Constructor " Url="html/255f73ac-8956-c8ec-20e6-b22c35fcf384.htm" />
+        <HelpTOCNode Title="hospitalDataSet.atencsmedicasDataTable Constructor (DataTable)" Url="html/baa686d7-2f15-37a8-d040-d88cb8246388.htm" />
+        <HelpTOCNode Title="hospitalDataSet.atencsmedicasDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/8a636206-8611-0116-df61-6e7284bec5b1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ceab6037-9b0c-4fba-a6f5-042d8791eadb" Title="atencsmedicasDataTable Properties" Url="html/25a36d49-1340-229e-0e39-c1a5b7ff75c5.htm">
+        <HelpTOCNode Title="Count Property " Url="html/0d87fb63-ed8b-c488-5d8e-4958c412a6a2.htm" />
+        <HelpTOCNode Title="diagnosticoColumn Property " Url="html/e2e8405b-a3aa-a31f-716b-5353250ed76b.htm" />
+        <HelpTOCNode Title="fechaColumn Property " Url="html/18cb2dce-8656-2cae-1a31-bbb0202cb464.htm" />
+        <HelpTOCNode Title="idatencColumn Property " Url="html/6aebe929-efb1-5762-b14d-8bb0ae303944.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/c439c2b9-9ac5-b5d0-d9c2-bdb6d3c26a85.htm" />
+        <HelpTOCNode Title="medicoColumn Property " Url="html/42abc840-3f88-41a1-5b3c-5dee6e79cdc2.htm" />
+        <HelpTOCNode Title="pacienteColumn Property " Url="html/b87c6f39-083c-5408-2852-e8d24806796b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eae02ca8-7c8b-4bd1-a410-be78a4dce828" Title="atencsmedicasDataTable Methods" Url="html/f084e9ec-7e5d-6a3a-dfd8-1236e6387731.htm">
+        <HelpTOCNode Id="ac1838c5-0a05-4ec4-8a9c-93b39354ead0" Title="AddatencsmedicasRow Method " Url="html/30ec8400-7287-5dc3-08a3-a74ef54beb7b.htm">
+          <HelpTOCNode Title="AddatencsmedicasRow Method (hospitalDataSet.atencsmedicasRow)" Url="html/0f1f57b4-f1f8-c81b-f065-c95654569d93.htm" />
+          <HelpTOCNode Title="AddatencsmedicasRow Method (DateTime, hospitalDataSet.medicosRow, hospitalDataSet.pacientesRow, String)" Url="html/5d847277-09e4-ba5d-b527-896fee3fc6ce.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone Method " Url="html/7a758186-8f2b-7d8c-62f2-b410bc8385d7.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/0af7bd40-a93e-90af-69c9-da9e83479238.htm" />
+        <HelpTOCNode Title="FindByidatenc Method " Url="html/8c46c91e-32dc-7ee9-198a-e0fc5516483f.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/d4472268-4052-e1bf-95f2-c14fce1bb45b.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/e8c95f35-b21f-e6a7-13e4-216f50b7b846.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/7a8403e9-84dc-f411-2ca5-1f8a57b52567.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/372462dd-0b22-1924-e73c-3a389f130e20.htm" />
+        <HelpTOCNode Title="NewatencsmedicasRow Method " Url="html/670a5fee-de79-ede8-9282-5003d5131aa8.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/a5f94f1c-afe8-c599-d4db-ac9680e2e3aa.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/8ebc55be-ebce-bbbf-c097-cd7273e40bd2.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/c68c0eeb-da4a-af79-0979-793bb2d4b5b8.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/0288ceb6-478d-08d4-04e3-4012f65ea5c9.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/e84bdb14-d01a-3bd7-f7c2-16160b4ddfc0.htm" />
+        <HelpTOCNode Title="RemoveatencsmedicasRow Method " Url="html/9d818e7d-fd93-97a9-75a6-1e6b59639447.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9f9eab25-a9ba-475b-b407-e3c26ae714aa" Title="atencsmedicasDataTable Events" Url="html/39f4f6fc-5d46-66b3-2c34-da236fa3764b.htm">
+        <HelpTOCNode Title="atencsmedicasRowChanged Event" Url="html/f70917a6-3bb1-008d-4e0f-50fd22f193a7.htm" />
+        <HelpTOCNode Title="atencsmedicasRowChanging Event" Url="html/04eb7fd2-43ce-868c-8719-4067e3ef110d.htm" />
+        <HelpTOCNode Title="atencsmedicasRowDeleted Event" Url="html/402a3181-f1ef-8846-6206-dc9dbb1a1e23.htm" />
+        <HelpTOCNode Title="atencsmedicasRowDeleting Event" Url="html/945f3ef2-cb22-3c96-ade0-0bbc390ceaed.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="58f24892-0ec5-4128-8dc2-32a293a68b2c" Title="atencsmedicasDataTable Fields" Url="html/586bfef7-be74-ee18-b273-fe43435ebe8c.htm">
+        <HelpTOCNode Title="columndiagnostico Field" Url="html/a0b28025-d11b-e8c4-e357-3239353c165a.htm" />
+        <HelpTOCNode Title="columnfecha Field" Url="html/35db56f9-6081-17d1-681a-1127152ba06c.htm" />
+        <HelpTOCNode Title="columnidatenc Field" Url="html/3c03a4c3-b94a-d001-9362-58624447d95a.htm" />
+        <HelpTOCNode Title="columnmedico Field" Url="html/0518cfc6-5b13-6db8-9a07-d362c21b265e.htm" />
+        <HelpTOCNode Title="columnpaciente Field" Url="html/b60acc15-2362-f0a3-b4ab-c0a2d6c0a2ae.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="41f7d041-4a36-4895-8669-5a53851af546" Title="hospitalDataSet.atencsmedicasRow Class" Url="html/20857021-1440-81da-4bcf-5c72fc6520f8.htm">
+      <HelpTOCNode Title="hospitalDataSet.atencsmedicasRow Constructor " Url="html/a1f709f6-53b8-1cd4-b438-4f2125fa7a00.htm" />
+      <HelpTOCNode Id="ce19dbe5-6adb-4798-8194-e8682f955c6e" Title="atencsmedicasRow Properties" Url="html/ad0ee30f-e8b6-caf4-7cda-a9113dedeea7.htm">
+        <HelpTOCNode Title="diagnostico Property " Url="html/b39595bc-dfc2-9f4e-d090-ce1d5cc832cb.htm" />
+        <HelpTOCNode Title="fecha Property " Url="html/129cac06-69a4-daa9-6403-071fab0b0b93.htm" />
+        <HelpTOCNode Title="idatenc Property " Url="html/ab96c162-b58d-cb6d-7065-395e51a41934.htm" />
+        <HelpTOCNode Title="medico Property " Url="html/a4dfaa38-4535-9628-e496-ec0b5d55ff02.htm" />
+        <HelpTOCNode Title="medicosRow Property " Url="html/e66a7e84-5afe-bbff-14db-9d95f3dfcf3d.htm" />
+        <HelpTOCNode Title="paciente Property " Url="html/2858c88a-1f15-9ab1-9eb9-acbccbc19a88.htm" />
+        <HelpTOCNode Title="pacientesRow Property " Url="html/7b3e9292-8da8-f082-7d38-f9d2abe25ffa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a1157927-f177-4493-bfa9-6a740796735d" Title="atencsmedicasRow Methods" Url="html/ec746ec4-1258-283f-be56-bdfc01cd4290.htm">
+        <HelpTOCNode Title="IsdiagnosticoNull Method " Url="html/546a6f17-bcba-8ef7-1f08-bc2c47152732.htm" />
+        <HelpTOCNode Title="IsfechaNull Method " Url="html/1fddbdd2-da83-a09b-a121-1d00c5c91d85.htm" />
+        <HelpTOCNode Title="SetdiagnosticoNull Method " Url="html/5ca5064c-798e-d0d7-35b7-e8a415184c6a.htm" />
+        <HelpTOCNode Title="SetfechaNull Method " Url="html/bfef1cfc-cd21-567d-4087-0a8056308312.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="27e9aa5c-4351-439a-8253-94f7d62b3749" Title="atencsmedicasRow Fields" Url="html/932b1196-29b2-d99a-4602-4796e8ecd532.htm">
+        <HelpTOCNode Title="tableatencsmedicas Field" Url="html/5138ee0d-6055-b771-005a-e2704877e532.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b8cf204a-5812-48fb-a96e-cffc68e20ff0" Title="hospitalDataSet.atencsmedicasRowChangeEvent Class" Url="html/1673b9fd-8811-f3a0-83a3-dcac0f64a05c.htm">
+      <HelpTOCNode Title="hospitalDataSet.atencsmedicasRowChangeEvent Constructor " Url="html/b20d1c38-a9f6-6f0d-f0e8-35135db5f1f9.htm" />
+      <HelpTOCNode Id="ec3d020a-9d1f-4442-b9af-763aec45c1c7" Title="atencsmedicasRowChangeEvent Properties" Url="html/cc869412-d7ab-bde1-d7e6-f717d601f7c6.htm">
+        <HelpTOCNode Title="Action Property " Url="html/cca5a73a-31b9-e75e-20e9-f2a4d51553c5.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/a3df430e-302a-01e7-9ea8-59ff0c8cf947.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2850114d-e166-41de-a8b6-b6e4ffd06971" Title="atencsmedicasRowChangeEvent Fields" Url="html/c11faf1c-bfc0-155e-1071-53371206a473.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/7cdb902f-b082-9b1b-da72-c02b71033ad3.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/059713cd-69b4-528b-8313-639bdae54a63.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="hospitalDataSet.atencsmedicasRowChangeEventHandler Delegate" Url="html/e7bb1cf7-bc9e-8f55-7582-a17e502b1f44.htm" />
+    <HelpTOCNode Id="6a7c98de-650b-41c0-b22b-fdf25a041759" Title="hospitalDataSet.DiagnosticosDataTable Class" Url="html/7e9bd1a0-9142-0142-e579-e8f3c7672fe0.htm">
+      <HelpTOCNode Id="50bd8088-7419-44ad-a7f3-0e0e898ad3ac" Title="DiagnosticosDataTable Constructor " Url="html/40111e55-9b0a-5a59-3920-0a6093080415.htm">
+        <HelpTOCNode Title="hospitalDataSet.DiagnosticosDataTable Constructor " Url="html/88d26a29-90f6-71f8-aaef-9a1322d7b73f.htm" />
+        <HelpTOCNode Title="hospitalDataSet.DiagnosticosDataTable Constructor (DataTable)" Url="html/d1213857-b7e6-4640-370c-88d1efcf784f.htm" />
+        <HelpTOCNode Title="hospitalDataSet.DiagnosticosDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/14e1dfb6-ebd1-a632-651c-58344882dfaa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0b993220-710d-4377-8a66-03ffa9889b50" Title="DiagnosticosDataTable Properties" Url="html/0e9dc92b-6b08-217f-15af-daaba29a7b3e.htm">
+        <HelpTOCNode Title="apellidosColumn Property " Url="html/96732161-6322-520d-d4dc-d8e78e649e56.htm" />
+        <HelpTOCNode Title="Count Property " Url="html/545e90ea-1a11-a489-3f8b-1f3e4437e2a6.htm" />
+        <HelpTOCNode Title="diagnosticoColumn Property " Url="html/fbf647a1-b50d-eb3d-c96f-804fe2f4b0a7.htm" />
+        <HelpTOCNode Title="especialidadColumn Property " Url="html/1fdf46f5-7cf0-2756-836f-e08198905599.htm" />
+        <HelpTOCNode Title="fechaColumn Property " Url="html/2df0e875-bc1d-5095-fed7-e4985fda4c86.htm" />
+        <HelpTOCNode Title="idatencColumn Property " Url="html/77c05df5-bcf4-f0cd-8710-ecaca1185e17.htm" />
+        <HelpTOCNode Title="idmedicoColumn Property " Url="html/e6f6e8a3-86d5-6850-9cb3-5800adc66c95.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/a40a8c18-6c82-d440-89b2-68ae307c8175.htm" />
+        <HelpTOCNode Title="nombreColumn Property " Url="html/466f1dab-680a-79b1-ef80-b6b6d04d3a25.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6872fcf1-eefb-49d1-bade-07e8ea1f0127" Title="DiagnosticosDataTable Methods" Url="html/e0b9780a-7c81-fef2-215a-8e341d55e617.htm">
+        <HelpTOCNode Id="c12acc73-f732-442d-9dfe-ebef653e6d9a" Title="AddDiagnosticosRow Method " Url="html/397d2ed0-d1d2-06ef-adee-77296db9b7b7.htm">
+          <HelpTOCNode Title="AddDiagnosticosRow Method (hospitalDataSet.DiagnosticosRow)" Url="html/df989cb1-9119-69d1-88fe-73e8959716c1.htm" />
+          <HelpTOCNode Title="AddDiagnosticosRow Method (DateTime, String, String, String, String)" Url="html/3fc2f81c-49cb-6de7-8efd-98083a0203b9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone Method " Url="html/7eb48a75-3bcc-f020-39d0-5abb087dcc83.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/7b01b6d9-4b06-8c30-0569-c27eb06fdffb.htm" />
+        <HelpTOCNode Title="FindByidatenc Method " Url="html/bf7916a8-3846-53d4-f974-37136dff6c83.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/a26c0f0f-635a-446d-bfdb-7ad764ce0648.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/83fb3698-17d2-4349-a8d1-4fcce6609d0f.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/abf3f061-5252-380b-0e84-120f3ef72b8e.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/eb1be211-052b-7825-13af-5b909fcd9da5.htm" />
+        <HelpTOCNode Title="NewDiagnosticosRow Method " Url="html/56653006-f380-bf68-2ffd-5a30070d53ba.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/022d5677-18dc-45ef-e8b0-3c1506d3c865.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/a7c76c5d-4625-dbc1-e650-31c4d4d2acaa.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/1a22ecfa-6869-c534-e2ef-b7197a6487c0.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/e3444eb7-7f8a-cd56-9f53-d70e70cbed2b.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/7110b719-10bc-13bb-8f2f-0665fe35dca3.htm" />
+        <HelpTOCNode Title="RemoveDiagnosticosRow Method " Url="html/d7fd9604-20ba-8b55-4891-c477862a4ce9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e97591c5-bc5b-4aa7-bfa6-d031bc7bd703" Title="DiagnosticosDataTable Events" Url="html/9c521ddb-b1b2-0c8e-c625-23f275f3389c.htm">
+        <HelpTOCNode Title="DiagnosticosRowChanged Event" Url="html/e688743f-f4c7-4d2d-c860-52dc6268acb8.htm" />
+        <HelpTOCNode Title="DiagnosticosRowChanging Event" Url="html/a0bd2a3e-ef32-48a5-f2e3-7bafc48444a7.htm" />
+        <HelpTOCNode Title="DiagnosticosRowDeleted Event" Url="html/0ebc5e50-d69f-a298-2291-5ce402396ec2.htm" />
+        <HelpTOCNode Title="DiagnosticosRowDeleting Event" Url="html/82802b0a-2e51-999e-7d3e-6feeb8c7b60f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a93daa6b-b131-474a-b83a-704e27142ee4" Title="DiagnosticosDataTable Fields" Url="html/c992c529-bfe8-67be-41af-ae587d121472.htm">
+        <HelpTOCNode Title="columnapellidos Field" Url="html/08ec77dc-79ff-ecd9-db06-8f361a856368.htm" />
+        <HelpTOCNode Title="columndiagnostico Field" Url="html/d152c4fe-ad44-775d-cb0e-f68492e219f0.htm" />
+        <HelpTOCNode Title="columnespecialidad Field" Url="html/fff8a71a-2304-f189-4c79-f522777ea441.htm" />
+        <HelpTOCNode Title="columnfecha Field" Url="html/2e663c6f-21b8-274b-2f7a-27d66a881f5b.htm" />
+        <HelpTOCNode Title="columnidatenc Field" Url="html/debb4e88-4d7b-8b3b-7f15-c05b9c4ee179.htm" />
+        <HelpTOCNode Title="columnidmedico Field" Url="html/99ed5152-4834-ce59-54cb-8dd85e4b08ad.htm" />
+        <HelpTOCNode Title="columnnombre Field" Url="html/d271f9af-a419-a84d-7c7d-69b9a0d2cc2f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a76ed913-9ebb-4b4e-a9a8-68c37f06e7dc" Title="hospitalDataSet.DiagnosticosRow Class" Url="html/367394f1-715f-277a-5b9d-caae3fd71951.htm">
+      <HelpTOCNode Title="hospitalDataSet.DiagnosticosRow Constructor " Url="html/314c6808-e11c-f516-de53-dbe2a4d31828.htm" />
+      <HelpTOCNode Id="cd3e4679-b9c3-4c2b-9848-0165040e605e" Title="DiagnosticosRow Properties" Url="html/55e42a88-3287-baee-1a76-6a241e984903.htm">
+        <HelpTOCNode Title="apellidos Property " Url="html/0ff289e9-c656-4748-774e-5d4071ef93a3.htm" />
+        <HelpTOCNode Title="diagnostico Property " Url="html/65bf9e27-9486-d6d9-10d3-710ce046f1dd.htm" />
+        <HelpTOCNode Title="especialidad Property " Url="html/77f65781-21cd-55b6-5457-05728feb1adb.htm" />
+        <HelpTOCNode Title="fecha Property " Url="html/cee448ad-3d11-d41a-f8e6-489767738844.htm" />
+        <HelpTOCNode Title="idatenc Property " Url="html/70cb5eb0-69e9-efa3-32f9-54d48b4be268.htm" />
+        <HelpTOCNode Title="idmedico Property " Url="html/89f01058-a217-bb0d-6035-64c81e3e6003.htm" />
+        <HelpTOCNode Title="nombre Property " Url="html/d0a297b5-00f5-0e25-b582-d75c034357b7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="53757798-d217-47c1-a1d3-6b4dcd241666" Title="DiagnosticosRow Methods" Url="html/1aeee76d-2dff-7850-935b-148b0d16cf06.htm">
+        <HelpTOCNode Title="IsapellidosNull Method " Url="html/796658c0-34f0-ec97-ab14-0bbfab7961b8.htm" />
+        <HelpTOCNode Title="IsdiagnosticoNull Method " Url="html/908d37c6-996d-157b-773b-e18f9fb390b7.htm" />
+        <HelpTOCNode Title="IsfechaNull Method " Url="html/16051122-8e7a-b578-0901-6d62d96ecaca.htm" />
+        <HelpTOCNode Title="IsnombreNull Method " Url="html/bbf0ca37-7ae3-fbdc-2aac-fa02bca6e56f.htm" />
+        <HelpTOCNode Title="SetapellidosNull Method " Url="html/d8c08d24-afbb-933e-6581-eb44c43aeed0.htm" />
+        <HelpTOCNode Title="SetdiagnosticoNull Method " Url="html/8b9b3037-5bb7-4a1e-58fb-e06d266ad955.htm" />
+        <HelpTOCNode Title="SetfechaNull Method " Url="html/d47bcf43-657a-0636-71f3-5813b474bc09.htm" />
+        <HelpTOCNode Title="SetnombreNull Method " Url="html/2f553432-b3dd-b057-2ba6-b5d7f98526d5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c1070ac6-8841-4d8f-9628-dd2dbddebdd7" Title="DiagnosticosRow Fields" Url="html/03394d9a-0cd3-a00a-cbf5-24f64075803b.htm">
+        <HelpTOCNode Title="tableDiagnosticos Field" Url="html/a5bb3700-1596-7d9b-82a1-4b6030ebab81.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="48d15649-63c8-4fd3-a2ee-a766a80f220d" Title="hospitalDataSet.DiagnosticosRowChangeEvent Class" Url="html/77769957-a92f-84f9-f801-1b851ed4f583.htm">
+      <HelpTOCNode Title="hospitalDataSet.DiagnosticosRowChangeEvent Constructor " Url="html/386546bf-0bc8-de7d-22dc-776a63a55fc4.htm" />
+      <HelpTOCNode Id="2f16598a-c1cf-4475-95ff-49c5a74c2b13" Title="DiagnosticosRowChangeEvent Properties" Url="html/956213e2-dc4a-9686-66b2-0fa90a23b333.htm">
+        <HelpTOCNode Title="Action Property " Url="html/2e38cdea-24d0-87dd-59b5-6035282ade3f.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/46bc443e-0039-74e1-88c6-4302f73380b3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f9739152-8471-4e95-bc6a-ec5f3224f550" Title="DiagnosticosRowChangeEvent Fields" Url="html/3a74e3e1-600c-4825-9c32-cdc785821af3.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/d76801ca-0e7c-2cf5-e0c4-d47a9b30e69c.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/deaf0bb6-2b9c-5089-e6d8-e69917e5bd27.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="hospitalDataSet.DiagnosticosRowChangeEventHandler Delegate" Url="html/1d97df0e-18b2-e6ce-fa75-07fc53ee4d82.htm" />
+    <HelpTOCNode Id="bfa1e4d0-628e-4275-8c9a-d0019d714731" Title="hospitalDataSet.especialidadesDataTable Class" Url="html/b205285a-8622-d03b-6f95-3e46df808dbd.htm">
+      <HelpTOCNode Id="737d87a3-7ef6-49b9-b1df-e31734affb84" Title="especialidadesDataTable Constructor " Url="html/04415da3-6e4a-73fe-10bf-8fe09d10f0d4.htm">
+        <HelpTOCNode Title="hospitalDataSet.especialidadesDataTable Constructor " Url="html/9bdcdcfe-9106-ed48-c877-5ba03f3eefd5.htm" />
+        <HelpTOCNode Title="hospitalDataSet.especialidadesDataTable Constructor (DataTable)" Url="html/b8a22651-7583-c641-e84b-80b2c8161896.htm" />
+        <HelpTOCNode Title="hospitalDataSet.especialidadesDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/2c9ffbad-fb39-d8d6-e9ca-0179b97f90a5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aaad9051-8213-4eb5-b798-2c418575e919" Title="especialidadesDataTable Properties" Url="html/9b9a2908-de88-289e-d229-192e47848fb1.htm">
+        <HelpTOCNode Title="Count Property " Url="html/2458c628-4fa6-c2dc-7429-4ce72e818fda.htm" />
+        <HelpTOCNode Title="especialidadColumn Property " Url="html/6c8fd18e-f881-7d1d-c6ff-9b277ad18cb9.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/c492a859-5852-da10-a43c-559ed55bd6c7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2c97b379-f578-4fce-8041-fbd9786205a0" Title="especialidadesDataTable Methods" Url="html/ca323cda-ddd3-1837-ee9e-7c93b335f02c.htm">
+        <HelpTOCNode Id="4983c564-c9c0-4b64-bc2a-e8ce082ceeda" Title="AddespecialidadesRow Method " Url="html/6e41e966-f629-48b3-691e-94ab57b1dbac.htm">
+          <HelpTOCNode Title="AddespecialidadesRow Method (String)" Url="html/dc237379-2bc0-5f34-7338-53092d4017ab.htm" />
+          <HelpTOCNode Title="AddespecialidadesRow Method (hospitalDataSet.especialidadesRow)" Url="html/63fc1790-aebe-8359-1b27-b32889cc359b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone Method " Url="html/5b48ab5f-957c-0a80-1f46-c47b4beb910e.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/13416219-7d31-e64d-302d-4f1de553952d.htm" />
+        <HelpTOCNode Title="FindByespecialidad Method " Url="html/c17e4731-ca65-b1ba-6a71-80e46b0da348.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/3c2bfc17-855b-8470-5048-200fb6335437.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/f99bcfdf-f72a-759a-3a54-159f3842e979.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/2afe80e6-daa2-49eb-004a-ac2b4ae1d786.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/7187870d-3919-9c61-f71a-dd42f74dffed.htm" />
+        <HelpTOCNode Title="NewespecialidadesRow Method " Url="html/89fc4d2e-6684-e042-53cc-0f14206ba367.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/256cd59a-f5eb-c2c6-7bb5-a4ef07711591.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/45c4b88b-8f7c-aa71-0eb3-2cb5f1616cf4.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/17c92f0e-6ee3-19f7-d44d-ea1a30c6f273.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/5a978e0f-971f-ee0c-c269-dd6b929538d8.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/6fde4cf6-4889-d1a4-85c1-0cdd71fdf821.htm" />
+        <HelpTOCNode Title="RemoveespecialidadesRow Method " Url="html/dee0458c-f071-ba32-b661-482452361d39.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59d2c66c-663a-4488-81b3-2b08d43828c8" Title="especialidadesDataTable Events" Url="html/2f7656ab-e466-6a35-0179-c32cc0b86cf3.htm">
+        <HelpTOCNode Title="especialidadesRowChanged Event" Url="html/f11a887a-c974-bae5-087d-271ea5a62de5.htm" />
+        <HelpTOCNode Title="especialidadesRowChanging Event" Url="html/98cffcfc-e789-18c1-6ccc-d4f3daf3d80a.htm" />
+        <HelpTOCNode Title="especialidadesRowDeleted Event" Url="html/fe4183e8-5120-1ce6-3839-8a156be0e90f.htm" />
+        <HelpTOCNode Title="especialidadesRowDeleting Event" Url="html/a23158bb-f54a-6ff7-ac9f-ee7d2f45a21d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="98c8ca51-7ef1-4f0c-aa6d-1d4c1f23f28c" Title="especialidadesDataTable Fields" Url="html/46ff112f-f7b6-fd8b-be2d-1f4452c9dbdd.htm">
+        <HelpTOCNode Title="columnespecialidad Field" Url="html/d55b9cc3-3de7-f481-19df-270eef6b0507.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f4d17268-2b76-427a-bb19-51a86e4fd5f7" Title="hospitalDataSet.especialidadesRow Class" Url="html/d597cccb-813b-2087-17a0-08345c0a6675.htm">
+      <HelpTOCNode Title="hospitalDataSet.especialidadesRow Constructor " Url="html/e8a02ade-0911-3e8b-16a8-a7b8ced46704.htm" />
+      <HelpTOCNode Id="c57a5ed4-07c6-4522-8a81-3c93b268d738" Title="especialidadesRow Properties" Url="html/4f136af8-1c2b-ab5b-05e2-7dad015ef02f.htm">
+        <HelpTOCNode Title="especialidad Property " Url="html/ceaee255-6f59-bbcd-4fec-94faf1a30619.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="68309cf1-9b63-400b-ac24-06135dd680b1" Title="especialidadesRow Methods" Url="html/d6f82fb5-97a3-0f45-8fff-cc5cba3d4695.htm">
+        <HelpTOCNode Title="GetmedicosRows Method " Url="html/129b23a5-085e-68da-8ce6-4f8a171ef56a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9dbf46d2-efeb-4d02-9e85-f983f185cbaa" Title="especialidadesRow Fields" Url="html/5680bcd7-85e7-628b-4824-1d2289083e3a.htm">
+        <HelpTOCNode Title="tableespecialidades Field" Url="html/34445f60-2eb4-e3a9-f9d1-ed2298d96d16.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a2768e0-dc7e-4a75-8328-2db3623cb60c" Title="hospitalDataSet.especialidadesRowChangeEvent Class" Url="html/d93758ea-823e-54fb-cd9e-fec919042db0.htm">
+      <HelpTOCNode Title="hospitalDataSet.especialidadesRowChangeEvent Constructor " Url="html/766e4a03-836c-6830-7690-00ac48f0eb04.htm" />
+      <HelpTOCNode Id="f7f97920-a4eb-4387-beeb-9b838b64120f" Title="especialidadesRowChangeEvent Properties" Url="html/7b029fa3-09c3-1364-07f2-9da62f02e55e.htm">
+        <HelpTOCNode Title="Action Property " Url="html/b49bfef7-0b93-dad0-1137-be0ce5f50608.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/9d71a186-e406-94d8-bae1-aa8fabdb442d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6af74b01-0236-473c-a026-35f042f80744" Title="especialidadesRowChangeEvent Fields" Url="html/fd170f40-2d81-2cef-8012-e46dc6544633.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/1cada9df-38ef-7fde-c069-9431635a9bf7.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/7b263f41-dc1b-2d29-fb14-91c20a2c37ff.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="hospitalDataSet.especialidadesRowChangeEventHandler Delegate" Url="html/e7f9ee71-cb8f-4433-6dc6-b4d48e81a204.htm" />
+    <HelpTOCNode Id="7b4a6b08-217c-4526-be72-104ee6966803" Title="hospitalDataSet.HistorialDataTable Class" Url="html/c7e90c37-325c-1a28-df2e-253de390bbd9.htm">
+      <HelpTOCNode Id="7181398d-1340-4916-ba31-739289904eb6" Title="HistorialDataTable Constructor " Url="html/4cfff8f7-221c-043d-d531-981e1070990e.htm">
+        <HelpTOCNode Title="hospitalDataSet.HistorialDataTable Constructor " Url="html/2cbd5646-ac3a-211b-008a-2db1025d3fe8.htm" />
+        <HelpTOCNode Title="hospitalDataSet.HistorialDataTable Constructor (DataTable)" Url="html/d49b7b4a-8e28-292e-7503-29c11956824d.htm" />
+        <HelpTOCNode Title="hospitalDataSet.HistorialDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/0582fe26-7046-a0c7-96c8-d53a0895d1ef.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="adbecdad-e996-4c6a-a7f9-919c8ea6839e" Title="HistorialDataTable Properties" Url="html/dd5d7dd7-aeea-df5a-87d0-f7aac532d6df.htm">
+        <HelpTOCNode Title="apellidosColumn Property " Url="html/916e4ee0-ab70-e654-c3f2-5b06aff145c0.htm" />
+        <HelpTOCNode Title="Count Property " Url="html/9c68dc37-50f1-03b6-dbbb-20a34473b015.htm" />
+        <HelpTOCNode Title="diagnosticoColumn Property " Url="html/bad47ae7-dda4-b7ae-4b0f-276e67e3591d.htm" />
+        <HelpTOCNode Title="especialidadColumn Property " Url="html/e9313df1-0619-05f1-faa0-6e6bed1c5eb5.htm" />
+        <HelpTOCNode Title="fechaColumn Property " Url="html/aaa436e9-1d8a-7728-c68d-5545871c5b11.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/ce591298-70e9-f57d-964f-5e62b19bb24b.htm" />
+        <HelpTOCNode Title="nombreColumn Property " Url="html/aead15b4-35d2-b2fe-c586-f9c912f03e21.htm" />
+        <HelpTOCNode Title="pacienteColumn Property " Url="html/ff985603-05ba-280e-13ad-75e482169a79.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f391d641-f3bd-4284-901f-d59afaf8c579" Title="HistorialDataTable Methods" Url="html/c2da6c56-a39c-478f-6cbf-3bdb225d1e32.htm">
+        <HelpTOCNode Id="5d149a81-4488-427d-8a19-d485cc403d17" Title="AddHistorialRow Method " Url="html/6fff4fb0-cb47-2678-8b36-6123dbefcc27.htm">
+          <HelpTOCNode Title="AddHistorialRow Method (hospitalDataSet.HistorialRow)" Url="html/8c896024-90d9-3bc9-0adb-18be4df32657.htm" />
+          <HelpTOCNode Title="AddHistorialRow Method (DateTime, String, String, String, hospitalDataSet.pacientesRow, String)" Url="html/96c7b524-411c-ece1-c0c9-9011a66c241a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone Method " Url="html/4b0050b0-fe86-1cf7-23be-af4b8c444db9.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/6b1741da-6a39-fcdf-5bd0-bd55c5792b54.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/0496994b-3177-c076-b05c-e3c5335c1d6e.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/3420f77c-c8ed-4e4d-6200-6cc55fe86a98.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/3ff6fae8-ffa6-49fe-258c-9497f5efd144.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/62abf116-6fc2-d953-d8af-e21861cf2ed9.htm" />
+        <HelpTOCNode Title="NewHistorialRow Method " Url="html/9acb5a95-ac22-30a8-8201-4a8022c9ecbe.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/a8f762a0-0337-7505-78e4-1cdd1a276f3e.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/9a314a10-a100-d810-cb95-e40246d54c2a.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/94ad5a94-ca54-affd-e146-ec0b37430489.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/97b626ac-4ce6-ef9a-8a0c-5925f2b1e5ed.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/0310fe8c-7bb4-17b0-2f80-050ceb24cfa6.htm" />
+        <HelpTOCNode Title="RemoveHistorialRow Method " Url="html/a836c944-ffe6-7253-0aa5-6f2ddc3f3f18.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="86da4d39-6c87-4caf-8f9f-4c89781f17f9" Title="HistorialDataTable Events" Url="html/78036b5c-d0eb-06f9-2ec5-88410961ae70.htm">
+        <HelpTOCNode Title="HistorialRowChanged Event" Url="html/760877a0-d119-f30e-41cf-bb64dc80cb2e.htm" />
+        <HelpTOCNode Title="HistorialRowChanging Event" Url="html/8ce61b8a-c030-7350-b701-2ce8554c1296.htm" />
+        <HelpTOCNode Title="HistorialRowDeleted Event" Url="html/456a9106-2d99-e1ec-b516-0d515af33531.htm" />
+        <HelpTOCNode Title="HistorialRowDeleting Event" Url="html/d9555762-48e6-7fe5-fdba-7ce3cddd3426.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a3337a52-2735-45be-8a11-08e9e3aaebce" Title="HistorialDataTable Fields" Url="html/c9af254c-64cb-325e-8707-6a7f6192495b.htm">
+        <HelpTOCNode Title="columnapellidos Field" Url="html/2f86ef2f-4b5e-27b4-531b-0bb5e73f58e6.htm" />
+        <HelpTOCNode Title="columndiagnostico Field" Url="html/824dd6f7-c205-02c5-1625-38e53b2f0866.htm" />
+        <HelpTOCNode Title="columnespecialidad Field" Url="html/920e41a9-fbd8-9e92-b23b-85b04d80280a.htm" />
+        <HelpTOCNode Title="columnfecha Field" Url="html/2bf1a498-cbf1-cfb2-8629-cde3200c558e.htm" />
+        <HelpTOCNode Title="columnnombre Field" Url="html/30bf7c30-e159-d3b2-fb2e-828c00dc2767.htm" />
+        <HelpTOCNode Title="columnpaciente Field" Url="html/27d96e1c-4051-3151-9bc0-748774273fb8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="993b008b-b1df-4f28-aa7a-4a6586885d78" Title="hospitalDataSet.HistorialRow Class" Url="html/e3b55b54-e801-ca9b-f65c-1407821a39aa.htm">
+      <HelpTOCNode Title="hospitalDataSet.HistorialRow Constructor " Url="html/1b0d0313-13ca-9280-1a56-7cffa7b8f74b.htm" />
+      <HelpTOCNode Id="e1baf9eb-ef40-4254-8231-ffb08d2ca75b" Title="HistorialRow Properties" Url="html/05f0e2c2-c9f9-6c87-a641-aea649202911.htm">
+        <HelpTOCNode Title="apellidos Property " Url="html/0ac08a12-c1e3-4670-d9ea-7267fe28c4f6.htm" />
+        <HelpTOCNode Title="diagnostico Property " Url="html/6ce3e3a6-aa92-7de1-fac7-cce43caeaf85.htm" />
+        <HelpTOCNode Title="especialidad Property " Url="html/761f54c2-2384-2705-f7cd-b650dedb43f2.htm" />
+        <HelpTOCNode Title="fecha Property " Url="html/4e1edcec-83ee-0f0a-b41c-83657692d321.htm" />
+        <HelpTOCNode Title="nombre Property " Url="html/f00b6bfd-d975-01ec-c604-74f3cc9d6a12.htm" />
+        <HelpTOCNode Title="paciente Property " Url="html/4c394163-8992-6457-53f6-7a6879624aed.htm" />
+        <HelpTOCNode Title="pacientesRow Property " Url="html/2b818089-4de1-17b5-e3c0-a3eab69ec603.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b6d5556-e072-45fc-a8da-f92c19c6c7a0" Title="HistorialRow Methods" Url="html/9d562475-31ae-0cfb-4e67-ed62e9209967.htm">
+        <HelpTOCNode Title="IsapellidosNull Method " Url="html/479c63bd-e365-8d6e-f2da-501034b30891.htm" />
+        <HelpTOCNode Title="IsdiagnosticoNull Method " Url="html/b4a0bd31-3ec2-6bb9-cfb4-bff3190044cc.htm" />
+        <HelpTOCNode Title="IsfechaNull Method " Url="html/865eb033-6ec9-1604-8593-5d182a8ca5d5.htm" />
+        <HelpTOCNode Title="IsnombreNull Method " Url="html/31642a6a-0fb4-883d-236b-dc16b6734dee.htm" />
+        <HelpTOCNode Title="SetapellidosNull Method " Url="html/b9beba01-088c-52ba-8806-d94609c07e9a.htm" />
+        <HelpTOCNode Title="SetdiagnosticoNull Method " Url="html/b64e1e54-6dd2-0c2a-578d-b0d90b6f3d7f.htm" />
+        <HelpTOCNode Title="SetfechaNull Method " Url="html/b4ae0ce6-ced3-4a44-587c-134aeff49551.htm" />
+        <HelpTOCNode Title="SetnombreNull Method " Url="html/fef2270f-6065-fe30-4dee-80c8de216b9b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="13cd5da9-8aa7-4a1d-b141-44f7a9b0e7fa" Title="HistorialRow Fields" Url="html/301b30ed-ee1c-bc6f-81a8-a84d400f9e25.htm">
+        <HelpTOCNode Title="tableHistorial Field" Url="html/2f6d47ad-593e-4b9b-317e-517225384601.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3291c436-ba68-427c-8c8f-3a62cf2f254a" Title="hospitalDataSet.HistorialRowChangeEvent Class" Url="html/df0e9711-1c07-3d66-a375-f9aeb7bf0aa9.htm">
+      <HelpTOCNode Title="hospitalDataSet.HistorialRowChangeEvent Constructor " Url="html/350dae32-5fb9-6284-9214-0186d243291c.htm" />
+      <HelpTOCNode Id="914c56a6-a28e-44a6-819f-8ec26ff14774" Title="HistorialRowChangeEvent Properties" Url="html/5aff2796-8c83-445c-ef48-c4f2893e7c68.htm">
+        <HelpTOCNode Title="Action Property " Url="html/d5e48cf0-7d26-ad5f-1c54-86bfd3fd2e0b.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/8555447b-8199-e9da-3b57-a7ed16f0f722.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2ee2919f-789d-4533-8153-588386c74fb9" Title="HistorialRowChangeEvent Fields" Url="html/eea65899-530f-8e6e-c441-ff3529373447.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/0e95708a-d966-8042-cc21-97016d74e516.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/4425f605-1bd9-b03b-9fb0-bf7b3e9f4bba.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="hospitalDataSet.HistorialRowChangeEventHandler Delegate" Url="html/13ae4ee6-876c-a415-77ce-0010fb09c9bd.htm" />
+    <HelpTOCNode Id="175b3552-9795-471a-8068-76592218fa49" Title="hospitalDataSet.medicosDataTable Class" Url="html/8cefb6b1-65fe-89f5-c267-7e24b84f0f66.htm">
+      <HelpTOCNode Id="cc9c596e-d24c-49eb-8197-8571f1055fd1" Title="medicosDataTable Constructor " Url="html/73872a21-8549-138e-0288-c839bfa50002.htm">
+        <HelpTOCNode Title="hospitalDataSet.medicosDataTable Constructor " Url="html/8e15d748-a7e9-ffbe-a6b7-ce2cafa65108.htm" />
+        <HelpTOCNode Title="hospitalDataSet.medicosDataTable Constructor (DataTable)" Url="html/9f0713ee-5d2f-da9f-b5f6-d55e7663b580.htm" />
+        <HelpTOCNode Title="hospitalDataSet.medicosDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/6b13c52f-3b62-21bc-b5f0-574598939b1c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="85b0f740-24f7-4d0c-bc18-72cf7bd56a70" Title="medicosDataTable Properties" Url="html/fe343035-45dc-108f-c7f9-45d42360c46f.htm">
+        <HelpTOCNode Title="apellidosColumn Property " Url="html/c71aaff5-09f7-663c-3b68-b055e14b9bb1.htm" />
+        <HelpTOCNode Title="Count Property " Url="html/dc625f64-5b6e-91f3-6ea9-c812871072c5.htm" />
+        <HelpTOCNode Title="especialidadColumn Property " Url="html/6ca54a63-30e9-e57b-3f7e-ad457e37d613.htm" />
+        <HelpTOCNode Title="fotoColumn Property " Url="html/10bdab78-bf3f-a775-7cf2-55257f097293.htm" />
+        <HelpTOCNode Title="idmedicoColumn Property " Url="html/fc24ee2a-69fe-8a61-224d-c83592508110.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/46e5f24c-d289-139e-74c4-8f15fe70896d.htm" />
+        <HelpTOCNode Title="movilColumn Property " Url="html/f1c3e5b8-3ad0-15bf-7abb-2e8384ebfbca.htm" />
+        <HelpTOCNode Title="nombreColumn Property " Url="html/f6786171-9701-86e7-16aa-d8bb18dd302c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9a7f971b-b830-4a37-9663-4d0175c34109" Title="medicosDataTable Methods" Url="html/79a5411c-60bb-7d91-aba1-d046a23ef2c8.htm">
+        <HelpTOCNode Id="65d27568-50b3-43a8-a099-4290f7829f61" Title="AddmedicosRow Method " Url="html/e2c1c779-5b4e-3f99-529e-fd71bc545404.htm">
+          <HelpTOCNode Title="AddmedicosRow Method (hospitalDataSet.medicosRow)" Url="html/ef8e3690-8830-c173-efed-ee7d80400d99.htm" />
+          <HelpTOCNode Title="AddmedicosRow Method (String, String, String, hospitalDataSet.especialidadesRow, Byte[])" Url="html/ca3edca8-1acc-e76e-3aae-e24fc24058f3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone Method " Url="html/b8173f43-dda9-c808-b73d-3b7e803d74ff.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/c04dba78-b043-f2fe-7fcb-4c62d3121812.htm" />
+        <HelpTOCNode Title="FindByidmedico Method " Url="html/7fcd7eb1-dab3-c4f3-cdd1-f2fa99feff7b.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/6f890232-f918-a3c6-81ab-44f7c393fba9.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/67ef3452-f823-6e9f-33c1-2338e19e3428.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/f11804c0-78d6-31ba-5140-f2c9a698b7a3.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/1346a0ae-bd7f-5e23-f627-485fee14e0dc.htm" />
+        <HelpTOCNode Title="NewmedicosRow Method " Url="html/54c7ff11-a4b2-0410-bf1e-a36a94d85869.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/e3f14710-41a8-3255-fec3-d4bcd35b70ab.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/44d7ded0-44ca-7be3-d18f-c251da17877a.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/adf431f6-50e3-3d0d-fd17-8c403c1b6027.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/0e56d3d1-05a2-2ef4-7b0e-488abe39fa39.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/00d15510-3b69-1341-4152-ccc7f6797aa4.htm" />
+        <HelpTOCNode Title="RemovemedicosRow Method " Url="html/bdf3c924-e7c2-8a74-fb96-9a38b08c389a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c30c46d0-8b1d-46dc-a81c-3f6b6edc37eb" Title="medicosDataTable Events" Url="html/341b91c3-2fc3-46d6-db2c-d11cae237bd7.htm">
+        <HelpTOCNode Title="medicosRowChanged Event" Url="html/6a0e239d-9e6a-155d-251c-5b1886683fcc.htm" />
+        <HelpTOCNode Title="medicosRowChanging Event" Url="html/eb3ab0e0-9c71-880d-f618-a23a1fb7ab3d.htm" />
+        <HelpTOCNode Title="medicosRowDeleted Event" Url="html/b755cf5d-07a8-aff7-cd15-ac092993fe36.htm" />
+        <HelpTOCNode Title="medicosRowDeleting Event" Url="html/87efd2ef-dfaf-1e12-cac7-5d434bc944d0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0e2ae385-0683-4225-8f46-d4d054d546cd" Title="medicosDataTable Fields" Url="html/c34b01c9-1911-4203-2708-cd17cec33e0a.htm">
+        <HelpTOCNode Title="columnapellidos Field" Url="html/9fe8183d-61d3-a74f-4ee8-854f3609a925.htm" />
+        <HelpTOCNode Title="columnespecialidad Field" Url="html/4f3f036c-6e3b-e9b3-9e07-021129dae477.htm" />
+        <HelpTOCNode Title="columnfoto Field" Url="html/8e8ab0f5-0798-80c2-2fb4-fabf48c7c74b.htm" />
+        <HelpTOCNode Title="columnidmedico Field" Url="html/56faf985-55a7-deff-b2ff-1fb8d66be542.htm" />
+        <HelpTOCNode Title="columnmovil Field" Url="html/ffadebad-96af-dbb8-620c-89d5ef9d2743.htm" />
+        <HelpTOCNode Title="columnnombre Field" Url="html/dba5cd6e-da81-75f7-7ada-324f61ba0267.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d8ffbe43-f3a6-4ef2-afc6-393d79bf0cdf" Title="hospitalDataSet.medicosRow Class" Url="html/3829dbab-322c-ed02-bd6e-60aac301772c.htm">
+      <HelpTOCNode Title="hospitalDataSet.medicosRow Constructor " Url="html/b3bdb71b-e7a7-2dc6-6bcc-57f63a77501f.htm" />
+      <HelpTOCNode Id="c7ccfbf8-efe1-4c0f-b6bc-09f074acddd6" Title="medicosRow Properties" Url="html/9adaa4a9-2361-fca3-51ce-d59f649b943b.htm">
+        <HelpTOCNode Title="apellidos Property " Url="html/6233a9f5-5534-6656-5871-996d9b7cb396.htm" />
+        <HelpTOCNode Title="especialidad Property " Url="html/b9094fce-bed1-f56a-e6d1-54eb1a596f47.htm" />
+        <HelpTOCNode Title="especialidadesRow Property " Url="html/8d85f6b7-9361-cc9b-c8ce-b57333d06bf3.htm" />
+        <HelpTOCNode Title="foto Property " Url="html/596ea9d6-1582-f1c6-065e-860efb18fc13.htm" />
+        <HelpTOCNode Title="idmedico Property " Url="html/d2a5e9ab-a827-b703-4d1b-6601b6255e00.htm" />
+        <HelpTOCNode Title="movil Property " Url="html/254623ad-6f0b-3601-019e-156ba45e9f34.htm" />
+        <HelpTOCNode Title="nombre Property " Url="html/10624894-8b0c-c6ad-fbac-cbf2356047ea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d8a081a-226e-4641-ad20-911d661786a2" Title="medicosRow Methods" Url="html/c10effc3-ad2e-eb92-a458-c47e6f4e33b8.htm">
+        <HelpTOCNode Title="GetatencsmedicasRows Method " Url="html/408740e3-431c-f8ca-4338-954a7e3831db.htm" />
+        <HelpTOCNode Title="IsapellidosNull Method " Url="html/0dd27997-eb01-cb5b-03a8-3c8eb0320a0f.htm" />
+        <HelpTOCNode Title="IsfotoNull Method " Url="html/28fb4b9d-fdff-2074-f28f-0135789a07f1.htm" />
+        <HelpTOCNode Title="IsmovilNull Method " Url="html/b1545867-83eb-f303-0b64-f668a4958680.htm" />
+        <HelpTOCNode Title="IsnombreNull Method " Url="html/6452a6bf-2983-5e96-a629-441b11f85670.htm" />
+        <HelpTOCNode Title="SetapellidosNull Method " Url="html/359cbd80-b582-4b87-eb65-4ea40fa64dce.htm" />
+        <HelpTOCNode Title="SetfotoNull Method " Url="html/bb80ddeb-5199-2459-a92a-1975a8046e79.htm" />
+        <HelpTOCNode Title="SetmovilNull Method " Url="html/e536257d-38d0-809e-be96-c0e9f48f1e28.htm" />
+        <HelpTOCNode Title="SetnombreNull Method " Url="html/737fd6ca-e523-ca75-ccd1-00d0b617fa5d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ac34a6dd-9fbd-4ced-b066-4d48a622c39c" Title="medicosRow Fields" Url="html/1e5e6436-b258-03dd-6d80-1761ddaa4374.htm">
+        <HelpTOCNode Title="tablemedicos Field" Url="html/64cbc268-1028-725e-61f4-fa61b84eef12.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="60264bb8-c076-47ca-9347-ff200036e8dc" Title="hospitalDataSet.medicosRowChangeEvent Class" Url="html/b2907144-fd24-cf45-14c5-4dd0da61369d.htm">
+      <HelpTOCNode Title="hospitalDataSet.medicosRowChangeEvent Constructor " Url="html/6d25d14f-9ffa-1434-6faf-5e608d51cba4.htm" />
+      <HelpTOCNode Id="71ce5b6b-7457-48c3-8af9-9c7b97b7ab7d" Title="medicosRowChangeEvent Properties" Url="html/d989f20c-f8a1-0c76-ea34-e2b322420519.htm">
+        <HelpTOCNode Title="Action Property " Url="html/ff5e8813-e567-eb05-1229-738406d64d60.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/004d20dc-1288-d1a9-13a7-180b0fae7c0a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="276ded39-6d3d-4824-b2cd-96fb28f7d326" Title="medicosRowChangeEvent Fields" Url="html/0740b652-2e92-72fd-dca9-c4400747d038.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/7411b58d-ca95-bba2-538c-49bc9a2b622b.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/cf0f1822-a2dc-56dc-7e73-fcff1bab3929.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="hospitalDataSet.medicosRowChangeEventHandler Delegate" Url="html/e302256a-9224-a236-86c1-c0c174c50f69.htm" />
+    <HelpTOCNode Id="62aacf74-b9cb-4d57-85e5-2aebba6b3f9f" Title="hospitalDataSet.pacientesDataTable Class" Url="html/3fbaf483-4efc-fd10-b575-e39402074cf8.htm">
+      <HelpTOCNode Id="74326a46-6abd-44f3-99ba-d8fe906ebd38" Title="pacientesDataTable Constructor " Url="html/2cb77f38-4934-a8a9-5372-47f2592d3d87.htm">
+        <HelpTOCNode Title="hospitalDataSet.pacientesDataTable Constructor " Url="html/82b1f233-a539-1a8d-4763-5678aeba50d0.htm" />
+        <HelpTOCNode Title="hospitalDataSet.pacientesDataTable Constructor (DataTable)" Url="html/9925b795-ee7e-a34f-f956-afd880903ad2.htm" />
+        <HelpTOCNode Title="hospitalDataSet.pacientesDataTable Constructor (SerializationInfo, StreamingContext)" Url="html/c8f3dec1-3956-e67e-1a2a-7bb8cee754f9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4420731b-10a8-4015-a4cc-c32e9c716b5a" Title="pacientesDataTable Properties" Url="html/e3d8a07b-2f46-e366-c9a7-06e35b2a88af.htm">
+        <HelpTOCNode Title="adestacarColumn Property " Url="html/11ad1326-7d68-b8b3-8995-44fdf8e28f5f.htm" />
+        <HelpTOCNode Title="alergiasColumn Property " Url="html/b993c57a-ed79-4f46-403d-7adada8fa3a3.htm" />
+        <HelpTOCNode Title="apellidosColumn Property " Url="html/edbcd587-ca57-e56e-0d46-4d5ace17998c.htm" />
+        <HelpTOCNode Title="Count Property " Url="html/318895e6-9f2b-4cce-3b44-28b7b536346f.htm" />
+        <HelpTOCNode Title="idpacienteColumn Property " Url="html/aa1dd788-b3b9-d76e-5485-bf1ef4f90a0a.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/98cee966-d167-ba51-edcf-1cd34f2bb960.htm" />
+        <HelpTOCNode Title="localidadColumn Property " Url="html/4354812b-7a01-a293-21f6-332f8f1ba473.htm" />
+        <HelpTOCNode Title="nombreColumn Property " Url="html/6b030407-f3d2-d6b8-1003-6a2a17521e57.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="97abc8b8-990d-4d42-b54d-d4607999e035" Title="pacientesDataTable Methods" Url="html/742a01e9-d411-8e8b-097b-a162ddc5413e.htm">
+        <HelpTOCNode Id="cc9ee6c8-317c-4d0b-9e14-423f22321e3c" Title="AddpacientesRow Method " Url="html/53e11cb3-cf78-69fa-1cca-abef788b8447.htm">
+          <HelpTOCNode Title="AddpacientesRow Method (hospitalDataSet.pacientesRow)" Url="html/22b458c2-f340-f0d8-62b1-dbf15a2722b5.htm" />
+          <HelpTOCNode Title="AddpacientesRow Method (String, String, String, String, String)" Url="html/6a58a3da-6432-e639-11e8-3354e5a73123.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone Method " Url="html/e5f01566-ecbf-27b2-e56d-33d7343e5178.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/a1e9be49-23f7-0880-03e7-d63376d2c208.htm" />
+        <HelpTOCNode Title="FindByidpaciente Method " Url="html/018f44ba-d305-9350-32d5-19a92b353082.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/fda785fe-f569-f311-3fac-9ee0a7d623e2.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/3d6f9d90-0fd2-1bf2-b37c-c2a7f73cc3bc.htm" />
+        <HelpTOCNode Title="InitClass Method " Url="html/18198569-f956-eaf6-e7ba-d3e32fde8c4b.htm" />
+        <HelpTOCNode Title="InitVars Method " Url="html/43868c7c-fabe-19fc-0134-c8a4cd5218a6.htm" />
+        <HelpTOCNode Title="NewpacientesRow Method " Url="html/c6b611d8-1aa6-4c62-00f4-761a444fab10.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/36b948ff-0914-739a-0b0d-776add9e0667.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/e3520770-9234-20be-0cd4-015ea086ceec.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/ffe00f63-e754-1c22-69de-0f31f85e5f43.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/92674ef8-387d-281d-152c-c8e70cd7470a.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/37c2d4ca-b4b5-a8e0-8747-e25318f6dd98.htm" />
+        <HelpTOCNode Title="RemovepacientesRow Method " Url="html/fb781e38-9c34-b497-4b8e-967961c9057a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4e9b82b4-e751-4c1e-978f-97e848398b0c" Title="pacientesDataTable Events" Url="html/ef41af60-b79a-11b1-e503-4d1a4cca455d.htm">
+        <HelpTOCNode Title="pacientesRowChanged Event" Url="html/efb21b1d-0b17-fdff-eb97-2e93c2fb0c86.htm" />
+        <HelpTOCNode Title="pacientesRowChanging Event" Url="html/4352a514-1507-25eb-8fcc-4c8a94853cf5.htm" />
+        <HelpTOCNode Title="pacientesRowDeleted Event" Url="html/89829474-17d3-f937-3cdc-5d1cc7f9a8a0.htm" />
+        <HelpTOCNode Title="pacientesRowDeleting Event" Url="html/1c7b06b6-eaa3-904d-c5d0-dbfe0653baba.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="be1275be-d9ff-410b-bd25-67fdb4ac102b" Title="pacientesDataTable Fields" Url="html/85991cc0-d68a-39e6-c777-3f74535f9422.htm">
+        <HelpTOCNode Title="columnadestacar Field" Url="html/eb1281f4-a2ac-c064-9b2a-4c65f94230b3.htm" />
+        <HelpTOCNode Title="columnalergias Field" Url="html/f7b80de4-58a0-817e-b410-aa029d318c99.htm" />
+        <HelpTOCNode Title="columnapellidos Field" Url="html/fb01171c-d3f9-14e1-1d48-4e81039a97f9.htm" />
+        <HelpTOCNode Title="columnidpaciente Field" Url="html/622ecfd8-1adf-9d01-6a5b-2a12124d14c7.htm" />
+        <HelpTOCNode Title="columnlocalidad Field" Url="html/2dba85ab-8359-c4c8-bcf5-607d678f65b1.htm" />
+        <HelpTOCNode Title="columnnombre Field" Url="html/e8b9b880-888c-d1de-d201-d6db8e280145.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e0326369-5803-4955-8160-657883edb435" Title="hospitalDataSet.pacientesRow Class" Url="html/dfc4e077-48e4-5de0-d434-e8882150113a.htm">
+      <HelpTOCNode Title="hospitalDataSet.pacientesRow Constructor " Url="html/b77da5b8-a9a3-e277-6ffd-b468b9d80eb6.htm" />
+      <HelpTOCNode Id="4a57256a-ad50-497e-b69a-4fddc3099a31" Title="pacientesRow Properties" Url="html/d8a2d16b-d264-9281-8df6-a46016e666d8.htm">
+        <HelpTOCNode Title="adestacar Property " Url="html/2c467d10-49a7-455e-0657-48a879643b30.htm" />
+        <HelpTOCNode Title="alergias Property " Url="html/bd54573a-50c3-e9f3-4ff1-3a537348107d.htm" />
+        <HelpTOCNode Title="apellidos Property " Url="html/8a669f41-0d64-762f-06f0-e522753557df.htm" />
+        <HelpTOCNode Title="idpaciente Property " Url="html/e0fadf29-7ccb-864e-8f91-5c318ea9aefd.htm" />
+        <HelpTOCNode Title="localidad Property " Url="html/3c8d3903-16cd-4571-2089-9d01a1f3cc90.htm" />
+        <HelpTOCNode Title="nombre Property " Url="html/ae6e5625-bb2d-886a-976b-6288bcfc7091.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="502d2fd0-3a84-4422-9d3d-ecff8ab257cb" Title="pacientesRow Methods" Url="html/dd629dae-c93f-0112-57a8-0bf341682c00.htm">
+        <HelpTOCNode Title="GetatencsmedicasRows Method " Url="html/0540b392-27f1-fc2c-cfad-8592d050743a.htm" />
+        <HelpTOCNode Title="GetHistorialRows Method " Url="html/23ad3b8b-897c-c870-b443-fb7e90044f3f.htm" />
+        <HelpTOCNode Title="IsadestacarNull Method " Url="html/d223cfc9-a243-1212-ecc1-9a85d76321c3.htm" />
+        <HelpTOCNode Title="IsalergiasNull Method " Url="html/b5e7b266-7aa8-5161-03ba-fc97adbbecea.htm" />
+        <HelpTOCNode Title="IsapellidosNull Method " Url="html/be36874f-8e70-c182-daf9-8cad2de79ad0.htm" />
+        <HelpTOCNode Title="IslocalidadNull Method " Url="html/a8494fff-d6cf-d9ca-b656-33402f2248ad.htm" />
+        <HelpTOCNode Title="IsnombreNull Method " Url="html/7cedb895-45a5-d289-7626-770cacf26f9a.htm" />
+        <HelpTOCNode Title="SetadestacarNull Method " Url="html/dbd40106-3c3e-ba96-b298-cf1ad578c3db.htm" />
+        <HelpTOCNode Title="SetalergiasNull Method " Url="html/2a726445-d14c-eca0-49e1-f401cb99aa6a.htm" />
+        <HelpTOCNode Title="SetapellidosNull Method " Url="html/4fa97b04-cdd1-b33b-dedb-0c2b5ed30c11.htm" />
+        <HelpTOCNode Title="SetlocalidadNull Method " Url="html/cc578b6b-70fd-cd3f-e716-c9d1415af289.htm" />
+        <HelpTOCNode Title="SetnombreNull Method " Url="html/3ab4c50d-e94a-dae7-d048-ffaa4fa9970a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1cabc01e-c969-4232-b5ae-2cbf858e17a1" Title="pacientesRow Fields" Url="html/f67303d3-98c0-b036-a13b-e5e082457491.htm">
+        <HelpTOCNode Title="tablepacientes Field" Url="html/2c1687a4-1c9a-9068-831a-353a5509ce43.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4082ec6b-542d-424d-9c73-b58bab2858be" Title="hospitalDataSet.pacientesRowChangeEvent Class" Url="html/42e21a67-8027-2735-84cf-00cfb3bf4502.htm">
+      <HelpTOCNode Title="hospitalDataSet.pacientesRowChangeEvent Constructor " Url="html/55cfa42b-29ba-19eb-2afc-1a4ac0ccff6c.htm" />
+      <HelpTOCNode Id="40338ba1-a5dd-4cc8-b74b-b393d704e4f3" Title="pacientesRowChangeEvent Properties" Url="html/8c0e9598-6b94-4796-3891-1239d6df03e7.htm">
+        <HelpTOCNode Title="Action Property " Url="html/949c0dda-06e0-4941-a212-57204c5a7fc8.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/2880f5a3-a15c-07a3-d2c3-58fa8a7d4069.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="673291bb-1b8e-4c5a-990f-2fba3eb4794e" Title="pacientesRowChangeEvent Fields" Url="html/99382030-1ffe-0a4c-43cc-9025037468d4.htm">
+        <HelpTOCNode Title="eventAction Field" Url="html/88e5ef2a-3278-14f0-8940-c40a06f7e415.htm" />
+        <HelpTOCNode Title="eventRow Field" Url="html/9200507e-5304-ba55-5084-c87d4022d70c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="hospitalDataSet.pacientesRowChangeEventHandler Delegate" Url="html/2cf9c842-1d05-5ac8-6d49-e467ec4b2143.htm" />
+    <HelpTOCNode Id="259d138d-e4f5-4219-b732-9b52c28a799d" Title="InformePacientes Class" Url="html/5a870ae7-d0a8-c369-0836-9dfe37b4f9ba.htm">
+      <HelpTOCNode Title="InformePacientes Constructor " Url="html/9d5c5c73-72fc-8286-d73b-81f97eef74b7.htm" />
+      <HelpTOCNode Id="41504db6-cf69-44f4-b9e3-a3b1f2cca62d" Title="InformePacientes Methods" Url="html/7e192e21-b758-84f5-50a1-dafd0fd1b057.htm">
+        <HelpTOCNode Title="btnBuscar_Click Method " Url="html/7d4afc1b-3b29-6032-0633-5177131a974b.htm" />
+        <HelpTOCNode Title="cargarComboMedicos Method " Url="html/3980a064-ec52-3d3a-7e40-760ea11a4faa.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/ef4e8b90-668d-ca48-c0ed-6b0a6bb917e0.htm" />
+        <HelpTOCNode Title="InformePacientes_Load Method " Url="html/aefebf11-78d0-f7c4-8637-d65b20c8629e.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/bead68ff-4546-5ea3-c01c-27fc857b9b58.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="44e5dfce-818c-48cd-8c7e-494f9c71bc29" Title="InformePacientes Fields" Url="html/c062db25-1f58-e8a7-b0c1-75fa64dbfbfc.htm">
+        <HelpTOCNode Title="btnBuscar Field" Url="html/0f1e0d9f-eb60-bcc1-18bb-65e8d8bf3130.htm" />
+        <HelpTOCNode Title="cmbMedicos Field" Url="html/7a7f895e-95f6-4c88-a7ff-f6c1b5c2cfc1.htm" />
+        <HelpTOCNode Title="components Field" Url="html/80fe183c-3835-65c9-3d8a-b7f2f327500a.htm" />
+        <HelpTOCNode Title="dgvPacientes Field" Url="html/a28782a0-ba8f-f7d3-170b-15f9988068ef.htm" />
+        <HelpTOCNode Title="fechaDateTimePicker Field" Url="html/d68a4dcb-45ce-3e09-28b4-9884f533f9ec.htm" />
+        <HelpTOCNode Title="idMedicos Field" Url="html/8d0b3db7-29fb-afa2-77c2-580ecc3abbed.htm" />
+        <HelpTOCNode Title="label1 Field" Url="html/4ac64f41-696e-1cef-d0d4-9930a4a1446c.htm" />
+        <HelpTOCNode Title="lblIdMedico Field" Url="html/0f98eb51-637f-e353-a2b4-fe12e7ffbad4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="02faae30-d9d4-4753-be96-76d0772033c6" Title="Program Class" Url="html/7e12dac0-c8cf-d689-7d9d-d9d31a6bc679.htm">
+      <HelpTOCNode Id="2f10e897-9e9e-4ab0-a688-bd66bf0953f4" Title="Program Methods" Url="html/890a3bd2-0a4e-ffb8-e315-2db1148479e8.htm">
+        <HelpTOCNode Title="Main Method " Url="html/5a005751-a204-872e-521b-556128526b2a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a6853095-13cd-4d14-8f5b-d77bc8d2f954" Title="SGHAndresSanchez.hospitalDataSetTableAdapters" Url="html/4c35a169-3dc1-050a-79ca-a9b4c46ddd39.htm">
+    <HelpTOCNode Id="28609ba0-8a10-4bad-bbc9-2860f15e45ec" Title="atencsmedicasTableAdapter Class" Url="html/917da94a-2a9b-cf5f-4137-cf9cf4fbc9db.htm">
+      <HelpTOCNode Title="atencsmedicasTableAdapter Constructor " Url="html/bd120380-4c09-1b32-0874-f42e8befa545.htm" />
+      <HelpTOCNode Id="b82b5ec9-ea0c-406e-9dfd-6616b240a1c4" Title="atencsmedicasTableAdapter Properties" Url="html/1a5cb047-1fa5-6273-a72a-d98eb3fb27a0.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/332b3d64-d6d0-e121-ed52-39d871baa9c6.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/4930d232-967f-143d-7830-01df783f1f8f.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/23b1fe22-7fbd-269f-f7f7-68f7eae98922.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/5cbff236-efd4-2033-e596-a96305bc99ba.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/ed2f0a45-4512-f4d7-534d-79950792b01f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c4781e4c-68d9-4097-b1f6-3bb59da8d901" Title="atencsmedicasTableAdapter Methods" Url="html/8e855cfb-5535-280e-4411-b4e569ab63c1.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/6b2ef2a7-072a-0a1d-cb06-8eea4e1ad74e.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/c4f497e9-2b1c-79b5-2cab-80f3a133328d.htm" />
+        <HelpTOCNode Title="FillByMedico Method " Url="html/93b3fcfa-82aa-a57a-85a5-a175fd7357d0.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/5b68a6fe-2ed9-0ad8-e40f-eda59500de71.htm" />
+        <HelpTOCNode Title="GetDataByMedico Method " Url="html/0b019f1a-8a25-4ba8-95e4-141b1138acde.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/35ffc673-6682-95cb-fcd0-53007dfe7869.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/b1f37f2a-ddb6-be00-4544-d7fdb1c4a798.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/7b160a70-2fe0-686d-4981-062e8e787d9d.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/9449516b-6bad-28be-f925-7cbeaac54b84.htm" />
+        <HelpTOCNode Id="57492314-bff4-48fa-b53f-c63bceda2cc8" Title="Update Method " Url="html/2ad7e7a1-d152-c3ec-bb06-0b55996daf8d.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/878918fc-3f4b-2de2-fb56-ec9dce567d4d.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/b4bd1460-621a-765c-f5bc-f87d916dbc47.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet)" Url="html/904e6c75-2040-db61-97c4-2cbdfccad845.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet.atencsmedicasDataTable)" Url="html/859253cc-fd2f-d2ab-2567-96f0bd9cac13.htm" />
+          <HelpTOCNode Title="Update Method (Nullable(DateTime), Int32, Int32, String, Int32, Nullable(DateTime), Int32, Int32, String)" Url="html/f22151dc-3ae4-880b-b0a6-45b5600c494a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="UpdateDiagnostico Method " Url="html/b6bcff26-7929-9b92-47b8-1b9e32a4c8a0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9358e82c-1272-482f-be68-4f11f5047ce1" Title="atencsmedicasTableAdapter Fields" Url="html/13bfcd2e-b521-cf1d-0e03-3c236592a946.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/dbca2d98-5b59-41a7-cdb1-de128a1cb4a6.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/c75ce59a-d94c-fc77-a441-22a44bfc7e14.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/e1d092a4-3f17-6ad6-4866-ce36dbc25615.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/44b12a11-2432-543d-716d-aee27b16626d.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/4b1b8552-49b1-48b2-4a5f-70c58a650bc5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a2d8b03d-f695-4cd5-acce-f093bab9dd88" Title="DiagnosticosTableAdapter Class" Url="html/06be18e8-34ff-24cb-cf37-4f76eeacda34.htm">
+      <HelpTOCNode Title="DiagnosticosTableAdapter Constructor " Url="html/7e1618ad-f80b-952f-6427-1476d30582a0.htm" />
+      <HelpTOCNode Id="e0f99553-5b88-4568-b237-b0a0d6a02bbd" Title="DiagnosticosTableAdapter Properties" Url="html/78feb9aa-c79d-dfbf-aeb6-bfef5bc7c685.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/69a91fdb-66bc-3cd0-69dc-5c4da6612c7d.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/dba50894-42d4-5471-aea8-509266345032.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/b231d209-14c6-2bbd-aaef-ea96a2701c0b.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/c4bccb12-4b0b-380b-d245-8ddbafdc684a.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/98dbbd3f-5967-3100-7c4e-a2ac5705740d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="92386145-ee3a-416e-94af-6394efed1634" Title="DiagnosticosTableAdapter Methods" Url="html/c2861db0-f8bf-2369-9307-68e4bb8f544d.htm">
+        <HelpTOCNode Title="Fill Method " Url="html/ee9f39fa-8e74-a056-50ff-e93f08ce5199.htm" />
+        <HelpTOCNode Title="FillByIdMedico Method " Url="html/e21d2293-fae0-c7cd-5989-cee05f68dd0e.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/ec6ec38c-ddc8-ac7c-74f9-c886510bd803.htm" />
+        <HelpTOCNode Title="GetDataByIdMedico Method " Url="html/b0572712-4715-dde7-f302-ec92ad9a59d0.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/57bed7c1-2bb2-ebcb-83e3-b073d138c927.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/0c5de488-734f-921e-a8ae-28e9c2d54cae.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/f6db82ce-55dd-1bc8-a1a5-5b14a95eea7d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9ebae44f-7012-4318-b301-f75a6038885b" Title="DiagnosticosTableAdapter Fields" Url="html/1b5633e7-2a03-d925-fe60-fa3ce7ea961b.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/3d4cc6e8-6066-bb42-a0c3-8936bc7cb2f1.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/39666800-00e0-8538-2600-8443f4141983.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/5776915b-c2de-b34f-0f19-9a1e0669c54c.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/9adebe5d-13f1-7db6-da81-b2d04b6caca5.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/09f9c88c-f3a1-64a6-8fff-90bd1e3ab08a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9d846bc-9429-43f2-86cb-3f49b4198114" Title="especialidadesTableAdapter Class" Url="html/273808f4-fa45-f354-ff43-3715dbf271e4.htm">
+      <HelpTOCNode Title="especialidadesTableAdapter Constructor " Url="html/f4e63cb4-0322-98aa-47c9-e28f73046a63.htm" />
+      <HelpTOCNode Id="4846abaf-0cca-475c-81a9-76e6688d7543" Title="especialidadesTableAdapter Properties" Url="html/29bcea97-68f1-ce78-a3f5-74dd16460a45.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/331960ff-501d-9ca9-9561-669cef903757.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/8c19b58d-c023-901b-5407-10a35cf940bc.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/0daaddcc-58f9-cc89-df39-92118224980c.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/82c7c861-ad97-cb20-5bb5-5a78d7eeb2ed.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/0b952b0c-9391-5d29-08e5-16c0eab67a96.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d8909133-45ef-452f-969b-12f5300db453" Title="especialidadesTableAdapter Methods" Url="html/d37f6c63-95e1-b091-888b-e2d2e977ae58.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/64e9af4e-e393-cb18-d3f7-057d68fd25da.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/568d88ea-a801-3372-e5aa-7b2e201a4206.htm" />
+        <HelpTOCNode Title="FillByEspecialidad Method " Url="html/9d610c57-d929-6bf9-47f9-b2cf9ecc642e.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/47c93eeb-0986-0686-a9b7-7e44238a83ff.htm" />
+        <HelpTOCNode Title="GetDataByEspecialidad Method " Url="html/51a1035d-56c1-82bd-5b53-44dcfccc288b.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/560d0be1-bd5f-1396-5757-6c1c1f2b6cae.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/5961fdeb-701f-58c5-81fb-e7ecf89f5a89.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/4a02f0a7-4aa7-7761-20fb-0c8162860852.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/be215163-5b2a-1569-d0b9-ead8c7def1eb.htm" />
+        <HelpTOCNode Id="8e52671c-a64e-4f9a-ab75-faf941d6b5df" Title="Update Method " Url="html/f1aff07e-4f5a-903b-8142-957f031dd496.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/3964bc5e-90af-767c-67d3-0abb1ae92aaf.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/f37056e6-06ea-afcd-7f15-e996772ab02c.htm" />
+          <HelpTOCNode Title="Update Method (String)" Url="html/fc3f88fe-1bed-2443-8ff7-c044a2c473ed.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet)" Url="html/7721a9f3-2940-f02d-8048-cd67bffd25dc.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet.especialidadesDataTable)" Url="html/b307a5a1-7f54-6f2b-53e6-41bd66ba5140.htm" />
+          <HelpTOCNode Title="Update Method (String, String)" Url="html/9e311ac8-e82f-c994-ae38-9a0b52c65112.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7b0aabe-a3da-4f19-9604-fb862d968bac" Title="especialidadesTableAdapter Fields" Url="html/2d21386b-756a-7840-03dd-5e7d960347c7.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/82ee9910-0dd0-aa35-ae93-1d486a01491e.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/440ad79e-039b-228f-6382-a8dbe9c2338e.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/b4c380dd-ccf4-3310-972b-1ed67bdf8f91.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/d26aa456-eff7-e4a8-2d6a-50d104d6551c.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/15a52afb-c9c4-80d9-ce2c-12de9a1381d9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ea93be15-abb4-4aad-85b8-799fc7b2eb04" Title="HistorialTableAdapter Class" Url="html/89fda7b1-b8f9-7b9d-d68e-0bcd13f9d128.htm">
+      <HelpTOCNode Title="HistorialTableAdapter Constructor " Url="html/a2f080b6-fa45-bd99-c44a-e4bd0e1fdba3.htm" />
+      <HelpTOCNode Id="64ad4fa2-ec4a-4154-b401-0296eadd7db9" Title="HistorialTableAdapter Properties" Url="html/0fc07d62-a6e8-5caf-e3b2-c1deda28d4e3.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/255d29bc-da46-3e00-1f29-468ae190a6ef.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/e206c1e0-9ac1-7721-f5d9-3fde3386c133.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/5a4ff095-7ee2-6428-fcc8-06160a1eb523.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/5cbe8ec6-5de7-c243-637c-5f4a5f4a8d39.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/fb620c4e-cdad-4682-cd9b-e53c8106b529.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="17e7358a-7e63-42df-a94c-d0b2bceea2c2" Title="HistorialTableAdapter Methods" Url="html/dc54a665-7fc7-e727-a02e-c4f0993d64e3.htm">
+        <HelpTOCNode Title="Fill Method " Url="html/b250195b-8726-7c67-3e92-039636f1056f.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/e29e99d8-ab5b-9ea5-f814-c0f711cc0996.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/87527c6d-0978-8e86-b8f9-ee4a4cd1550d.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/dcce1a86-09c9-e62c-dd29-c36de50e0bd1.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/5c16c6ec-9f30-63c6-71f5-d0e0a4816ab5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="56dda703-5ef4-4b88-8a76-33b447640472" Title="HistorialTableAdapter Fields" Url="html/bb07bd45-a3f5-552c-8136-85bb901dc1b5.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/882dafce-606d-98b4-3edc-1a15f1284175.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/b789dd85-ccb8-cbf9-144d-55af35c7e8a7.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/aa38fbee-ec47-13d6-bd69-802f67a2bf2c.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/c15837b4-6c4e-5fcf-fb68-23efa69cb3fe.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/6dba4f9b-9428-c3fb-d8fd-374ebf0a07d2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dabc1588-40f8-47a3-84e9-e067250d73dd" Title="medicosTableAdapter Class" Url="html/eca93c3e-b082-fb07-bb5b-7220e4010f1e.htm">
+      <HelpTOCNode Title="medicosTableAdapter Constructor " Url="html/951aa2c5-0441-f4eb-5453-0d8d4251e891.htm" />
+      <HelpTOCNode Id="72feb095-7ceb-4ce6-84fc-f0ae40165ead" Title="medicosTableAdapter Properties" Url="html/48151bba-0219-1073-5926-567391229776.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/0d7c9fa6-2873-062f-6854-600cf5c8b041.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/1b6dda42-7f7f-59fb-b3fd-8c90a4ab192b.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/24ac7874-19a5-8df6-5afc-3c4b28fd6b0c.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/5d0c7452-3089-95d1-198e-bafe6a438a27.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/61848026-0d6d-6d30-01cb-2435caea5879.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5153f0c0-3932-411a-834a-fb28f7e8f0a5" Title="medicosTableAdapter Methods" Url="html/f1fa0cef-ed89-8bb9-c797-acaa4b1370cf.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/68b95f06-c833-acf4-0fcc-6c1cc4d0d63b.htm" />
+        <HelpTOCNode Title="DeleteQuery Method " Url="html/bce5a67e-9e80-b26d-4144-e8f7d07a6dcf.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/ce6dee92-5b80-d435-82db-d9b0bc4dee88.htm" />
+        <HelpTOCNode Title="FillById Method " Url="html/f61011bc-fcfb-7cc7-f45a-54e4a667549d.htm" />
+        <HelpTOCNode Title="FillByNombre Method " Url="html/52c2a4db-a3f0-c61d-2b4b-3f5e934919a6.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/880450ed-5d37-1872-1b49-2f1f34be5c6e.htm" />
+        <HelpTOCNode Title="GetDataById Method " Url="html/d44aa36e-c8f0-4ceb-3822-fdb710fdb324.htm" />
+        <HelpTOCNode Title="GetDataByNombre Method " Url="html/ffbc17d6-94e4-9df9-4654-2f7487e3b5bf.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/3b1d83b1-de46-0ad4-2dc5-e7e9c03a9958.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/78d63933-52c6-b26b-fc29-94bb85e1b91d.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/dae9bc66-d04b-87a8-7fa2-2c08b93f8876.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/254400ec-305c-85ca-d355-0dcc17ff3199.htm" />
+        <HelpTOCNode Id="8ca96f03-930e-4146-a544-65a32dc1e884" Title="Update Method " Url="html/a2fe102d-cce8-b66d-a021-369f157a0921.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/178f427a-ecb4-42c3-aec4-7752c05af2ca.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/9129d02c-efc2-f53f-d100-8769547e3b72.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet)" Url="html/8060829b-6a93-f2f9-36e0-c4d9e539191f.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet.medicosDataTable)" Url="html/4b71438b-32f5-4522-7c62-e760dbed33b5.htm" />
+          <HelpTOCNode Title="Update Method (String, String, String, String, Object, Int32, String, String, String, String)" Url="html/82f56898-1ed4-bef2-c922-6d1979bcab91.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b0a38ce1-da0f-4f3e-afa2-912cdc5c4c48" Title="medicosTableAdapter Fields" Url="html/b5a1f9d7-14e5-f5ea-4c0b-5fdb7d7531e8.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/215d4bee-b467-7130-f070-ec7ae8e8c80f.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/e305f4d3-0ac0-6962-e9b8-7c90a527e1d7.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/a7c6d92f-4123-8ffd-b27c-0675b13f543f.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/0b9a86e9-b31f-da82-0bf9-7b8562905c99.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/d091af20-703f-5b37-1d2e-11d82a655f39.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f78df8cb-98a5-4dbb-86ad-eb4766d70977" Title="pacientesTableAdapter Class" Url="html/5776abe4-aeda-285f-44f8-1f9af6c37f19.htm">
+      <HelpTOCNode Title="pacientesTableAdapter Constructor " Url="html/143a8479-64e9-b0c0-bcd1-5ecef7f36c14.htm" />
+      <HelpTOCNode Id="ba5c442d-9160-43a6-9420-5f42870cdc92" Title="pacientesTableAdapter Properties" Url="html/a07586e7-7942-9ef8-97f5-0910addbb6b8.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/925d496c-4587-e4c7-247d-1e75579fea68.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/04e6d6ab-d09d-191d-a5b9-9927fcae57dd.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/d0b800d9-c82d-6805-4771-f1490b81564f.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/90b39f74-eaa6-2567-5a48-e5f848734d02.htm" />
+        <HelpTOCNode Title="Transaction Property " Url="html/c21fcaa1-5e5b-e197-37e8-3939a900f72d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4054336c-e12a-448a-9ac2-5e54e7daa771" Title="pacientesTableAdapter Methods" Url="html/41e692fa-fe11-f7c9-5b33-ca09ec0020f3.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/a354b96b-19cd-1fd9-7bd9-6d2548244bee.htm" />
+        <HelpTOCNode Title="DeleteQuery Method " Url="html/0cb9b787-5823-4b06-23b1-de7ef9211a7f.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/8d27039b-88b0-f138-05d2-e1bc78db3b96.htm" />
+        <HelpTOCNode Title="FillById Method " Url="html/56180f20-d9de-5246-3b4d-7b4bfcd16fdb.htm" />
+        <HelpTOCNode Title="FillByNombreApellidos Method " Url="html/c9326b0e-5a18-5b61-0206-f22dca2ada19.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/fec631dc-a0be-ccdf-1daa-3be12e316f94.htm" />
+        <HelpTOCNode Title="GetDataById Method " Url="html/794a7311-f470-4b4e-68b7-f3fecd185885.htm" />
+        <HelpTOCNode Title="GetDataByNombreApellidos Method " Url="html/f94b19ec-4894-62ec-4da8-aa73c4148e1c.htm" />
+        <HelpTOCNode Title="InitAdapter Method " Url="html/b7fce4b6-1b81-2d29-333b-6b0eda4f2977.htm" />
+        <HelpTOCNode Title="InitCommandCollection Method " Url="html/d367285e-1ccb-0009-4ce6-bd15a4b795ce.htm" />
+        <HelpTOCNode Title="InitConnection Method " Url="html/290a8d15-1a49-37b8-3313-410df9322014.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/512c87f8-612b-8ece-615c-a706e70a6633.htm" />
+        <HelpTOCNode Id="9e36d085-efec-4f9e-ae24-70745f29c504" Title="Update Method " Url="html/5335df14-c1ca-c4b7-845e-5490597e64dc.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/c8530db0-c68f-6a74-2a99-74de6ff47377.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/011c39a0-8dc8-e0bd-cc81-9ff6c86388c2.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet)" Url="html/b0d640cb-36a4-34f3-8b93-dcb81a7a11ac.htm" />
+          <HelpTOCNode Title="Update Method (hospitalDataSet.pacientesDataTable)" Url="html/65390cff-8c13-b313-df9b-c8752d14d7f3.htm" />
+          <HelpTOCNode Title="Update Method (String, String, String, String, String, Int32, String, String, String, String, String)" Url="html/1c3181a8-d214-bc06-71e2-43f63d6cddd3.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c011594b-0b0f-4eb2-a2dd-d340a64a7c66" Title="pacientesTableAdapter Fields" Url="html/eeaf7796-ff3e-e56f-75f2-d8dd42ce945a.htm">
+        <HelpTOCNode Title="_adapter Field" Url="html/73cc34d7-0694-9d21-b6e1-e703f583396f.htm" />
+        <HelpTOCNode Title="_clearBeforeFill Field" Url="html/63a57d44-1a92-a65e-00c7-e5ac542d7fba.htm" />
+        <HelpTOCNode Title="_commandCollection Field" Url="html/921ecd3e-7846-342e-6771-a536d96f2eaf.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/1409a741-1d0f-dd12-ab9f-1b7796cf7838.htm" />
+        <HelpTOCNode Title="_transaction Field" Url="html/93a0d28b-2584-ebf3-8a87-98fed3d8150b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="77659493-e4fc-4e9e-ac6d-d0c78791b973" Title="TableAdapterManager Class" Url="html/d5990ade-341c-0db2-a13b-49ec99cc7769.htm">
+      <HelpTOCNode Title="TableAdapterManager Constructor " Url="html/b1d548f7-b179-ab65-c808-d4b21d908c09.htm" />
+      <HelpTOCNode Id="b3c94f47-e8de-4375-bf04-ef8be33eedd7" Title="TableAdapterManager Properties" Url="html/76bcb52b-8664-1b63-7df4-cc1b89cfe58b.htm">
+        <HelpTOCNode Title="atencsmedicasTableAdapter Property " Url="html/5040a336-9a7f-d84a-32b0-5fb66f17ddaa.htm" />
+        <HelpTOCNode Title="BackupDataSetBeforeUpdate Property " Url="html/b22728c6-a18f-e1ff-55fc-0c6303a380c7.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/2ce92ca1-950d-47ee-58f2-fe526431cbc0.htm" />
+        <HelpTOCNode Title="especialidadesTableAdapter Property " Url="html/4d5d2b7a-cb03-632d-861a-a22db1f6df60.htm" />
+        <HelpTOCNode Title="medicosTableAdapter Property " Url="html/440969c4-a86a-ab2c-fea9-f8b69c7b3a90.htm" />
+        <HelpTOCNode Title="pacientesTableAdapter Property " Url="html/5dbf2e16-756f-beab-4de6-04def77805b3.htm" />
+        <HelpTOCNode Title="TableAdapterInstanceCount Property " Url="html/d6ee27f8-a7de-a2f8-217b-59b0ac22ffec.htm" />
+        <HelpTOCNode Title="UpdateOrder Property " Url="html/ad001a37-450c-79b5-7c78-1bd53ac321f1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cbd5f3be-69f1-42a9-aba4-c2dc93657ed1" Title="TableAdapterManager Methods" Url="html/5795d1dd-2d7b-492d-70ba-7c8358bef022.htm">
+        <HelpTOCNode Title="GetRealUpdatedRows Method " Url="html/9b9d2693-8f19-2597-d447-3d5e157119e1.htm" />
+        <HelpTOCNode Title="MatchTableAdapterConnection Method " Url="html/d6799326-d4a0-2f99-2da5-730d9c9d5424.htm" />
+        <HelpTOCNode Title="SortSelfReferenceRows Method " Url="html/c4e365bf-87d1-719a-bd67-2930dea87ab0.htm" />
+        <HelpTOCNode Title="UpdateAll Method " Url="html/37907d08-7bbc-1942-1737-b39a3c9a0ae6.htm" />
+        <HelpTOCNode Title="UpdateDeletedRows Method " Url="html/cf05cb1c-7705-0df0-3ac2-8293572fc0da.htm" />
+        <HelpTOCNode Title="UpdateInsertedRows Method " Url="html/b365e2d5-e155-32d4-ee74-b86f292e64ac.htm" />
+        <HelpTOCNode Title="UpdateUpdatedRows Method " Url="html/e55f1a72-3835-fe2f-5f96-b2b01b16d29c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eee9b734-aa03-4ef8-8294-c01492bc27d7" Title="TableAdapterManager Fields" Url="html/7a2bb30e-92f4-f9cb-78bb-5d49f1aa18aa.htm">
+        <HelpTOCNode Title="_atencsmedicasTableAdapter Field" Url="html/ecee6201-3da4-a9d3-f51a-50b6a3ea21ad.htm" />
+        <HelpTOCNode Title="_backupDataSetBeforeUpdate Field" Url="html/e0cad5df-95c1-4488-621d-ab6a309b2314.htm" />
+        <HelpTOCNode Title="_connection Field" Url="html/054a0251-9810-6fd7-ffc6-a2af66426115.htm" />
+        <HelpTOCNode Title="_especialidadesTableAdapter Field" Url="html/f608bca5-2e16-d123-2654-87d10691b7d8.htm" />
+        <HelpTOCNode Title="_medicosTableAdapter Field" Url="html/148663f2-098a-3cf2-075e-a1997099d9b6.htm" />
+        <HelpTOCNode Title="_pacientesTableAdapter Field" Url="html/35c02f7e-1147-273a-5a9e-c9cc29c9052f.htm" />
+        <HelpTOCNode Title="_updateOrder Field" Url="html/bc542a0b-83b1-c71c-6ece-1bdcc9c5107d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5664fb9d-e7fd-4cf9-8337-c369c6cdec4a" Title="TableAdapterManager.SelfReferenceComparer Class" Url="html/2da418f8-ff38-747d-1a8b-7c13849c21d6.htm">
+      <HelpTOCNode Title="TableAdapterManager.SelfReferenceComparer Constructor " Url="html/e879d78d-c7df-685a-5344-801cab5730cd.htm" />
+      <HelpTOCNode Id="1fcae28d-6ed9-402f-aae9-01e9e8f15233" Title="SelfReferenceComparer Methods" Url="html/05b89615-a327-9874-e442-df53a2ef8582.htm">
+        <HelpTOCNode Title="Compare Method " Url="html/e5452565-58a2-4907-14c6-86a4050ddd3f.htm" />
+        <HelpTOCNode Title="GetRoot Method " Url="html/02eeebcd-f22e-b1ea-b2a8-83832f6b9320.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cec978b2-90ee-498a-badf-689f365de88f" Title="SelfReferenceComparer Fields" Url="html/dda84b32-e768-a87c-d17b-b80b7e996bf4.htm">
+        <HelpTOCNode Title="_childFirst Field" Url="html/f901d64a-cb1e-5a58-dedc-7b601db4e8a6.htm" />
+        <HelpTOCNode Title="_relation Field" Url="html/08c2dd19-7eff-5b45-b80a-01dd702d0954.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="TableAdapterManager.UpdateOrderOption Enumeration" Url="html/dbd37056-b7c0-c698-be11-8bb374064feb.htm" />
+  </HelpTOCNode>
+</HelpTOC>

@@ -20,12 +20,18 @@ namespace SGHAndresSanchez
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        ///  Acciones que se realizan al cargar el formulario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void HistorialClinico_Load(object sender, EventArgs e)
         {
             llenarComboPacientes();
         }
-
+        /// <summary>
+        /// Se llena el combo de los pacientes
+        /// </summary>
         private void llenarComboPacientes()
         {
             hospitalDataSet db = new hospitalDataSet();
@@ -41,19 +47,22 @@ namespace SGHAndresSanchez
             }
 
         }
-
+        /// <summary>
+        /// Cada vez que seleccionemos un paciente, se cargan sus datos en el datagridview
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void nombreComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             cargarDataGridView();
         }
-
+        /// <summary>
+        /// Se cargan los datos del paciente en el datagriview
+        /// </summary>
         private void cargarDataGridView()
         {
             hospitalDataSet db = new hospitalDataSet();
             hospitalDataSetTableAdapters.HistorialTableAdapter HistorialTableAdapter = new hospitalDataSetTableAdapters.HistorialTableAdapter();
-
-            try
-            {
                 int id = (int)this.listaPacientes[this.nombreComboBox.SelectedIndex];
                 HistorialTableAdapter.Fill(db.Historial, id);
                 DGVHistorial.DataSource = db.Historial;
@@ -66,11 +75,6 @@ namespace SGHAndresSanchez
                     row.Cells[3].ReadOnly = true;
                 }
             }
-            catch
-            {
-
-            }
         }
 
     }
-}

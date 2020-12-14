@@ -42,12 +42,12 @@
             System.Windows.Forms.Label localidadLabel;
             System.Windows.Forms.Label alergiasLabel;
             System.Windows.Forms.Label adestacarLabel;
-            System.Windows.Forms.Label idmedicoLabel2;
-            System.Windows.Forms.Label especialidadLabel1;
-            System.Windows.Forms.Label nombreLabel2;
             System.Windows.Forms.Label label9;
             System.Windows.Forms.Label label10;
             System.Windows.Forms.Label label11;
+            System.Windows.Forms.Label nombreLabel2;
+            System.Windows.Forms.Label idmedicoLabel2;
+            System.Windows.Forms.Label especialidadLabel1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormularioPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,6 +63,8 @@
             this.btnAnadirCita = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.idatencLabel1 = new System.Windows.Forms.Label();
+            this.atencsmedicasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hospitalDataSet = new SGHAndresSanchez.hospitalDataSet();
             this.fechaDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.panel6 = new System.Windows.Forms.Panel();
             this.lblFechaHora = new System.Windows.Forms.Label();
@@ -89,26 +91,28 @@
             this.alergiasTextBox = new System.Windows.Forms.TextBox();
             this.adestacarTextBox = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.diagnosticosDataGridView = new System.Windows.Forms.DataGridView();
+            this.idatencDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellidosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diagnosticoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idmedicoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.especialidadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diagnosticosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.lblIdMedico = new System.Windows.Forms.Label();
             this.lblEspecialidad = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idAtenc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Diagnostico = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cbNombre = new System.Windows.Forms.ComboBox();
             this.btnActualizarDiagnostico = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.atencsmedicasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hospitalDataSet = new SGHAndresSanchez.hospitalDataSet();
             this.medicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pacientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.atencsmedicasTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.atencsmedicasTableAdapter();
             this.tableAdapterManager = new SGHAndresSanchez.hospitalDataSetTableAdapters.TableAdapterManager();
             this.medicosTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.medicosTableAdapter();
             this.pacientesTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.pacientesTableAdapter();
+            this.diagnosticosTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.DiagnosticosTableAdapter();
             idatencLabel = new System.Windows.Forms.Label();
             fechaLabel = new System.Windows.Forms.Label();
             idmedicoLabel = new System.Windows.Forms.Label();
@@ -122,26 +126,27 @@
             localidadLabel = new System.Windows.Forms.Label();
             alergiasLabel = new System.Windows.Forms.Label();
             adestacarLabel = new System.Windows.Forms.Label();
-            idmedicoLabel2 = new System.Windows.Forms.Label();
-            especialidadLabel1 = new System.Windows.Forms.Label();
-            nombreLabel2 = new System.Windows.Forms.Label();
             label9 = new System.Windows.Forms.Label();
             label10 = new System.Windows.Forms.Label();
             label11 = new System.Windows.Forms.Label();
+            nombreLabel2 = new System.Windows.Forms.Label();
+            idmedicoLabel2 = new System.Windows.Forms.Label();
+            especialidadLabel1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atencsmedicasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosticosDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosticosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.atencsmedicasBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.medicosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pacientesBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -263,33 +268,6 @@
             adestacarLabel.TabIndex = 10;
             adestacarLabel.Text = "adestacar:";
             // 
-            // idmedicoLabel2
-            // 
-            idmedicoLabel2.AutoSize = true;
-            idmedicoLabel2.Location = new System.Drawing.Point(193, 97);
-            idmedicoLabel2.Name = "idmedicoLabel2";
-            idmedicoLabel2.Size = new System.Drawing.Size(52, 13);
-            idmedicoLabel2.TabIndex = 24;
-            idmedicoLabel2.Text = "idmedico:";
-            // 
-            // especialidadLabel1
-            // 
-            especialidadLabel1.AutoSize = true;
-            especialidadLabel1.Location = new System.Drawing.Point(193, 71);
-            especialidadLabel1.Name = "especialidadLabel1";
-            especialidadLabel1.Size = new System.Drawing.Size(69, 13);
-            especialidadLabel1.TabIndex = 23;
-            especialidadLabel1.Text = "especialidad:";
-            // 
-            // nombreLabel2
-            // 
-            nombreLabel2.AutoSize = true;
-            nombreLabel2.Location = new System.Drawing.Point(193, 44);
-            nombreLabel2.Name = "nombreLabel2";
-            nombreLabel2.Size = new System.Drawing.Size(44, 13);
-            nombreLabel2.TabIndex = 22;
-            nombreLabel2.Text = "medico:";
-            // 
             // label9
             // 
             label9.AutoSize = true;
@@ -316,6 +294,33 @@
             label11.Size = new System.Drawing.Size(51, 13);
             label11.TabIndex = 19;
             label11.Text = "paciente:";
+            // 
+            // nombreLabel2
+            // 
+            nombreLabel2.AutoSize = true;
+            nombreLabel2.Location = new System.Drawing.Point(193, 44);
+            nombreLabel2.Name = "nombreLabel2";
+            nombreLabel2.Size = new System.Drawing.Size(44, 13);
+            nombreLabel2.TabIndex = 22;
+            nombreLabel2.Text = "medico:";
+            // 
+            // idmedicoLabel2
+            // 
+            idmedicoLabel2.AutoSize = true;
+            idmedicoLabel2.Location = new System.Drawing.Point(193, 97);
+            idmedicoLabel2.Name = "idmedicoLabel2";
+            idmedicoLabel2.Size = new System.Drawing.Size(52, 13);
+            idmedicoLabel2.TabIndex = 24;
+            idmedicoLabel2.Text = "idmedico:";
+            // 
+            // especialidadLabel1
+            // 
+            especialidadLabel1.AutoSize = true;
+            especialidadLabel1.Location = new System.Drawing.Point(193, 71);
+            especialidadLabel1.Name = "especialidadLabel1";
+            especialidadLabel1.Size = new System.Drawing.Size(69, 13);
+            especialidadLabel1.TabIndex = 23;
+            especialidadLabel1.Text = "especialidad:";
             // 
             // panel1
             // 
@@ -462,6 +467,16 @@
             this.idatencLabel1.TabIndex = 1;
             this.idatencLabel1.Text = "label9";
             // 
+            // atencsmedicasBindingSource
+            // 
+            this.atencsmedicasBindingSource.DataMember = "atencsmedicas";
+            this.atencsmedicasBindingSource.DataSource = this.hospitalDataSet;
+            // 
+            // hospitalDataSet
+            // 
+            this.hospitalDataSet.DataSetName = "hospitalDataSet";
+            this.hospitalDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // fechaDateTimePicker
             // 
             this.fechaDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.atencsmedicasBindingSource, "fecha", true));
@@ -578,6 +593,7 @@
             this.nombreTextBox.ReadOnly = true;
             this.nombreTextBox.Size = new System.Drawing.Size(100, 20);
             this.nombreTextBox.TabIndex = 3;
+            this.nombreTextBox.Text = "c";
             // 
             // apellidosTextBox
             // 
@@ -708,9 +724,9 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel5.Controls.Add(this.diagnosticosDataGridView);
             this.panel5.Controls.Add(this.lblIdMedico);
             this.panel5.Controls.Add(this.lblEspecialidad);
-            this.panel5.Controls.Add(this.dataGridView1);
             this.panel5.Controls.Add(this.cbNombre);
             this.panel5.Controls.Add(idmedicoLabel2);
             this.panel5.Controls.Add(especialidadLabel1);
@@ -722,6 +738,71 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(545, 444);
             this.panel5.TabIndex = 7;
+            // 
+            // diagnosticosDataGridView
+            // 
+            this.diagnosticosDataGridView.AutoGenerateColumns = false;
+            this.diagnosticosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.diagnosticosDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idatencDataGridViewTextBoxColumn,
+            this.fechaDataGridViewTextBoxColumn,
+            this.nombreDataGridViewTextBoxColumn,
+            this.apellidosDataGridViewTextBoxColumn,
+            this.diagnosticoDataGridViewTextBoxColumn,
+            this.idmedicoDataGridViewTextBoxColumn,
+            this.especialidadDataGridViewTextBoxColumn});
+            this.diagnosticosDataGridView.DataSource = this.diagnosticosBindingSource;
+            this.diagnosticosDataGridView.Location = new System.Drawing.Point(15, 228);
+            this.diagnosticosDataGridView.Name = "diagnosticosDataGridView";
+            this.diagnosticosDataGridView.Size = new System.Drawing.Size(518, 150);
+            this.diagnosticosDataGridView.TabIndex = 29;
+            // 
+            // idatencDataGridViewTextBoxColumn
+            // 
+            this.idatencDataGridViewTextBoxColumn.DataPropertyName = "idatenc";
+            this.idatencDataGridViewTextBoxColumn.HeaderText = "idatenc";
+            this.idatencDataGridViewTextBoxColumn.Name = "idatencDataGridViewTextBoxColumn";
+            // 
+            // fechaDataGridViewTextBoxColumn
+            // 
+            this.fechaDataGridViewTextBoxColumn.DataPropertyName = "fecha";
+            this.fechaDataGridViewTextBoxColumn.HeaderText = "fecha";
+            this.fechaDataGridViewTextBoxColumn.Name = "fechaDataGridViewTextBoxColumn";
+            // 
+            // nombreDataGridViewTextBoxColumn
+            // 
+            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "nombre";
+            this.nombreDataGridViewTextBoxColumn.HeaderText = "nombre";
+            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
+            // 
+            // apellidosDataGridViewTextBoxColumn
+            // 
+            this.apellidosDataGridViewTextBoxColumn.DataPropertyName = "apellidos";
+            this.apellidosDataGridViewTextBoxColumn.HeaderText = "apellidos";
+            this.apellidosDataGridViewTextBoxColumn.Name = "apellidosDataGridViewTextBoxColumn";
+            // 
+            // diagnosticoDataGridViewTextBoxColumn
+            // 
+            this.diagnosticoDataGridViewTextBoxColumn.DataPropertyName = "diagnostico";
+            this.diagnosticoDataGridViewTextBoxColumn.HeaderText = "diagnostico";
+            this.diagnosticoDataGridViewTextBoxColumn.Name = "diagnosticoDataGridViewTextBoxColumn";
+            // 
+            // idmedicoDataGridViewTextBoxColumn
+            // 
+            this.idmedicoDataGridViewTextBoxColumn.DataPropertyName = "idmedico";
+            this.idmedicoDataGridViewTextBoxColumn.HeaderText = "idmedico";
+            this.idmedicoDataGridViewTextBoxColumn.Name = "idmedicoDataGridViewTextBoxColumn";
+            // 
+            // especialidadDataGridViewTextBoxColumn
+            // 
+            this.especialidadDataGridViewTextBoxColumn.DataPropertyName = "especialidad";
+            this.especialidadDataGridViewTextBoxColumn.HeaderText = "especialidad";
+            this.especialidadDataGridViewTextBoxColumn.Name = "especialidadDataGridViewTextBoxColumn";
+            // 
+            // diagnosticosBindingSource
+            // 
+            this.diagnosticosBindingSource.DataMember = "Diagnosticos";
+            this.diagnosticosBindingSource.DataSource = this.hospitalDataSet;
             // 
             // lblIdMedico
             // 
@@ -740,55 +821,6 @@
             this.lblEspecialidad.Size = new System.Drawing.Size(13, 13);
             this.lblEspecialidad.TabIndex = 27;
             this.lblEspecialidad.Text = "--";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idAtenc,
-            this.Fecha,
-            this.Nombre,
-            this.Apellidos,
-            this.Diagnostico});
-            this.dataGridView1.Location = new System.Drawing.Point(24, 191);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(508, 150);
-            this.dataGridView1.TabIndex = 9;
-            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
-            // 
-            // idAtenc
-            // 
-            this.idAtenc.HeaderText = "idAtenc";
-            this.idAtenc.Name = "idAtenc";
-            this.idAtenc.ReadOnly = true;
-            // 
-            // Fecha
-            // 
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            this.Fecha.ReadOnly = true;
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // Apellidos
-            // 
-            this.Apellidos.HeaderText = "Apellidos";
-            this.Apellidos.Name = "Apellidos";
-            this.Apellidos.ReadOnly = true;
-            // 
-            // Diagnostico
-            // 
-            this.Diagnostico.HeaderText = "Diagnostico";
-            this.Diagnostico.Name = "Diagnostico";
             // 
             // cbNombre
             // 
@@ -831,16 +863,6 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
-            // atencsmedicasBindingSource
-            // 
-            this.atencsmedicasBindingSource.DataMember = "atencsmedicas";
-            this.atencsmedicasBindingSource.DataSource = this.hospitalDataSet;
-            // 
-            // hospitalDataSet
-            // 
-            this.hospitalDataSet.DataSetName = "hospitalDataSet";
-            this.hospitalDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // medicosBindingSource
             // 
             this.medicosBindingSource.DataMember = "medicos";
@@ -872,6 +894,10 @@
             // 
             this.pacientesTableAdapter.ClearBeforeFill = true;
             // 
+            // diagnosticosTableAdapter
+            // 
+            this.diagnosticosTableAdapter.ClearBeforeFill = true;
+            // 
             // FormularioPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -899,6 +925,8 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atencsmedicasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -909,10 +937,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosticosDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diagnosticosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.atencsmedicasBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.medicosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pacientesBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -966,21 +993,26 @@
         private System.Windows.Forms.TextBox alergiasTextBox;
         private System.Windows.Forms.TextBox adestacarTextBox;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.ComboBox cbNombre;
         private System.Windows.Forms.Button btnActualizarDiagnostico;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox cbMedico;
         private System.Windows.Forms.ComboBox cbEspecialidad;
         private System.Windows.Forms.ComboBox cbPaciente;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.BindingSource diagnosticosBindingSource;
+        private hospitalDataSetTableAdapters.DiagnosticosTableAdapter diagnosticosTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridView diagnosticosDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idatencDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fechaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn apellidosDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn diagnosticoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idmedicoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn especialidadDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label lblIdMedico;
         private System.Windows.Forms.Label lblEspecialidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idAtenc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Apellidos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Diagnostico;
+        private System.Windows.Forms.ComboBox cbNombre;
     }
 }
 

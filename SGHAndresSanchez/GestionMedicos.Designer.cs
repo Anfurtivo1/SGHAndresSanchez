@@ -34,13 +34,9 @@
             System.Windows.Forms.Label apellidosLabel;
             System.Windows.Forms.Label movilLabel;
             System.Windows.Forms.Label fotoLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionMedicos));
             System.Windows.Forms.Label especialidadLabel1;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionMedicos));
             this.btnFoto = new System.Windows.Forms.Button();
-            this.hospitalDataSet = new SGHAndresSanchez.hospitalDataSet();
-            this.medicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.medicosTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.medicosTableAdapter();
-            this.tableAdapterManager = new SGHAndresSanchez.hospitalDataSetTableAdapters.TableAdapterManager();
             this.medicosBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -60,17 +56,21 @@
             this.movilTextBox = new System.Windows.Forms.TextBox();
             this.fotoPictureBox = new System.Windows.Forms.PictureBox();
             this.especialidadComboBox = new System.Windows.Forms.ComboBox();
+            this.medicosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hospitalDataSet = new SGHAndresSanchez.hospitalDataSet();
+            this.medicosTableAdapter = new SGHAndresSanchez.hospitalDataSetTableAdapters.medicosTableAdapter();
+            this.tableAdapterManager = new SGHAndresSanchez.hospitalDataSetTableAdapters.TableAdapterManager();
             idmedicoLabel = new System.Windows.Forms.Label();
             nombreLabel = new System.Windows.Forms.Label();
             apellidosLabel = new System.Windows.Forms.Label();
             movilLabel = new System.Windows.Forms.Label();
             fotoLabel = new System.Windows.Forms.Label();
             especialidadLabel1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.medicosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.medicosBindingNavigator)).BeginInit();
             this.medicosBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fotoPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medicosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // idmedicoLabel
@@ -118,6 +118,15 @@
             fotoLabel.TabIndex = 29;
             fotoLabel.Text = "foto:";
             // 
+            // especialidadLabel1
+            // 
+            especialidadLabel1.AutoSize = true;
+            especialidadLabel1.Location = new System.Drawing.Point(228, 150);
+            especialidadLabel1.Name = "especialidadLabel1";
+            especialidadLabel1.Size = new System.Drawing.Size(69, 13);
+            especialidadLabel1.TabIndex = 30;
+            especialidadLabel1.Text = "especialidad:";
+            // 
             // btnFoto
             // 
             this.btnFoto.Location = new System.Drawing.Point(44, 173);
@@ -128,35 +137,12 @@
             this.btnFoto.UseVisualStyleBackColor = true;
             this.btnFoto.Click += new System.EventHandler(this.btnFoto_Click);
             // 
-            // hospitalDataSet
-            // 
-            this.hospitalDataSet.DataSetName = "hospitalDataSet";
-            this.hospitalDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // medicosBindingSource
-            // 
-            this.medicosBindingSource.DataMember = "medicos";
-            this.medicosBindingSource.DataSource = this.hospitalDataSet;
-            // 
-            // medicosTableAdapter
-            // 
-            this.medicosTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.atencsmedicasTableAdapter = null;
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.especialidadesTableAdapter = null;
-            this.tableAdapterManager.medicosTableAdapter = this.medicosTableAdapter;
-            this.tableAdapterManager.pacientesTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = SGHAndresSanchez.hospitalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
             // medicosBindingNavigator
             // 
             this.medicosBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
             this.medicosBindingNavigator.BindingSource = this.medicosBindingSource;
             this.medicosBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.medicosBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.medicosBindingNavigator.DeleteItem = null;
             this.medicosBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
@@ -275,7 +261,7 @@
             this.medicosBindingNavigatorSaveItem.Name = "medicosBindingNavigatorSaveItem";
             this.medicosBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.medicosBindingNavigatorSaveItem.Text = "Guardar datos";
-            this.medicosBindingNavigatorSaveItem.Click += new System.EventHandler(this.medicosBindingNavigatorSaveItem_Click_1);
+            this.medicosBindingNavigatorSaveItem.Click += new System.EventHandler(this.medicosBindingNavigatorSaveItem_Click);
             // 
             // idmedicoLabel1
             // 
@@ -320,15 +306,6 @@
             this.fotoPictureBox.TabIndex = 30;
             this.fotoPictureBox.TabStop = false;
             // 
-            // especialidadLabel1
-            // 
-            especialidadLabel1.AutoSize = true;
-            especialidadLabel1.Location = new System.Drawing.Point(228, 150);
-            especialidadLabel1.Name = "especialidadLabel1";
-            especialidadLabel1.Size = new System.Drawing.Size(69, 13);
-            especialidadLabel1.TabIndex = 30;
-            especialidadLabel1.Text = "especialidad:";
-            // 
             // especialidadComboBox
             // 
             this.especialidadComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.medicosBindingSource, "especialidad", true));
@@ -337,6 +314,29 @@
             this.especialidadComboBox.Name = "especialidadComboBox";
             this.especialidadComboBox.Size = new System.Drawing.Size(100, 21);
             this.especialidadComboBox.TabIndex = 31;
+            // 
+            // medicosBindingSource
+            // 
+            this.medicosBindingSource.DataMember = "medicos";
+            this.medicosBindingSource.DataSource = this.hospitalDataSet;
+            // 
+            // hospitalDataSet
+            // 
+            this.hospitalDataSet.DataSetName = "hospitalDataSet";
+            this.hospitalDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // medicosTableAdapter
+            // 
+            this.medicosTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.atencsmedicasTableAdapter = null;
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.especialidadesTableAdapter = null;
+            this.tableAdapterManager.medicosTableAdapter = this.medicosTableAdapter;
+            this.tableAdapterManager.pacientesTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = SGHAndresSanchez.hospitalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // GestionMedicos
             // 
@@ -361,12 +361,12 @@
             this.Name = "GestionMedicos";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.GestionMedicos_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.medicosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.medicosBindingNavigator)).EndInit();
             this.medicosBindingNavigator.ResumeLayout(false);
             this.medicosBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fotoPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medicosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitalDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

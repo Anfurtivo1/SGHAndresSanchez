@@ -16,25 +16,32 @@ namespace SGHAndresSanchez
     {
         ArrayList idMedicos = new ArrayList();
         ArrayList idPacientes = new ArrayList();
-        private object db;
 
         public FormularioPrincipal()
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Acciones que se realizan al cargar el formulario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FormularioPrincipal_Load(object sender, EventArgs e)
         {
+            this.tableAdapterManager.UpdateAll(this.hospitalDataSet);
             //TODO: esta línea de código carga datos en la tabla 'hospitalDataSet.medicos' Puede moverla o quitarla según sea necesario.
             this.medicosTableAdapter.Fill(this.hospitalDataSet.medicos);
             // TODO: esta línea de código carga datos en la tabla 'hospitalDataSet.medicos' Puede moverla o quitarla según sea necesario.
             this.medicosTableAdapter.Fill(this.hospitalDataSet.medicos);
 
             cargarComboEspecialidad();
+            cargarComboMedicosDiagnostico();
             timer1.Start();
 
         }
-
+        /// <summary>
+        /// Metodo que carga el combo de medicos
+        /// </summary>
         private void cargarComboMedicos()
         {
             hospitalDataSet db = new hospitalDataSet();
@@ -52,7 +59,9 @@ namespace SGHAndresSanchez
             
             
         }
-
+        /// <summary>
+        /// Metodo que carga el combo de medicos del datagridView
+        /// </summary>
         private void cargarComboMedicosDGV()
         {
             hospitalDataSet db = new hospitalDataSet();
@@ -70,7 +79,9 @@ namespace SGHAndresSanchez
 
 
         }
-
+        /// <summary>
+        /// Metodo que carga el combo de especialidades
+        /// </summary>
         private void cargarComboEspecialidad()
         {
             hospitalDataSet db = new hospitalDataSet();
@@ -83,7 +94,9 @@ namespace SGHAndresSanchez
 
             }
         }
-
+        /// <summary>
+        /// Metodo que carga el combo de pacientes
+        /// </summary>
         private void cargarComboPacientes()
         {
             hospitalDataSet db = new hospitalDataSet();
@@ -97,23 +110,31 @@ namespace SGHAndresSanchez
 
             }
         }
-
+        /// <summary>
+        /// Metodo que carga el datagridview de diagnosticos
+        /// </summary>
+        /// <exception cref="">El medico podría no tener ninguna cita asociada</exception>
         private void cargarDGVDiagnosticos()
         {
+            diagnosticosDataGridView.Columns[0].ReadOnly = true;
+            diagnosticosDataGridView.Columns[1].ReadOnly = true;
+            diagnosticosDataGridView.Columns[2].ReadOnly = true;
+            diagnosticosDataGridView.Columns[3].ReadOnly = true;
+
             int pos = cbNombre.SelectedIndex;
             int id = (int)idMedicos[pos];
 
             hospitalDataSet db = new hospitalDataSet();
 
-            hospitalDataSetTableAdapters.DataTable1TableAdapter DataTable1TableAdapter = new hospitalDataSetTableAdapters.DataTable1TableAdapter();
-            DataTable1TableAdapter.FillByNombreApellidos(db.DataTable1, id);
+            hospitalDataSetTableAdapters.DiagnosticosTableAdapter diagnosticosTableAdapter = new hospitalDataSetTableAdapters.DiagnosticosTableAdapter();
             try
             {
-                dataGridView1.Rows[0].Cells[0].Value = db.DataTable1[0].idatenc.ToString();
-                dataGridView1.Rows[0].Cells[1].Value = db.DataTable1[0].fecha.ToString();
-                dataGridView1.Rows[0].Cells[2].Value = db.DataTable1[0].nombre.ToString();
-                dataGridView1.Rows[0].Cells[3].Value = db.DataTable1[0].apellidos.ToString();
-                dataGridView1.Rows[0].Cells[4].Value = db.DataTable1[0].diagnostico.ToString();
+                int idMedico = (int)idMedicos[cbNombre.SelectedIndex];
+                diagnosticosTableAdapter.FillByIdMedico(db.Diagnosticos, id);
+                lblEspecialidad.Text = db.Diagnosticos[0].especialidad;
+                lblIdMedico.Text = id.ToString();
+                diagnosticosDataGridView.DataSource = db.Diagnosticos;
+                
             }
             catch
             {
@@ -123,7 +144,10 @@ namespace SGHAndresSanchez
             
 
         }
-
+        /// <summary>
+        /// Metodo que carga el panel de los medicos
+        /// </summary>
+        /// <exception cref="">El medico podría no tener ninguna foto asociada</exception>
         private void cargarPanelMedicos()
         {
             int pos = cbMedico.SelectedIndex;
@@ -169,7 +193,9 @@ namespace SGHAndresSanchez
             }
 
         }
-
+        /// <summary>
+        /// Metodo que carga el panel de los pacientes
+        /// </summary>
         private void cargarPanelPacientes()
         {
             int pos = cbPaciente.SelectedIndex;
@@ -187,31 +213,53 @@ namespace SGHAndresSanchez
             adestacarTextBox.Text = db.pacientes[0].adestacar.ToString();
 
         }
-
+        /// <summary>
+        /// Cada vez que pasa un segundo, se actualiza la fecha y hora
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblFechaHora.Text = DateTime.Now.ToString("G");
         }
-
+        /// <summary>
+        /// Cada vez que se cambia el indice del combo de especialidades se activa el combo de medicos y se carga
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cbEspecialidad_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             cbMedico.Enabled = true;
             cargarComboMedicos();
         }
-
+        /// <summary>
+        /// Cada vez que se cambia el indice del combo de pacientes se activa el combo de medicos y se carga el panel de los pacientes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cbPaciente_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             cargarPanelPacientes();
             cbNombre.Enabled = true;
         }
-
+        /// <summary>
+        /// Cada vez que se cambia el indice del combo de medicos se activa el combo de pacientes y se carga el panel de medicos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cbMedico_SelectedIndexChanged(object sender, EventArgs e)
         {
             cargarComboPacientes();
             cargarPanelMedicos();
+            cbNombre.SelectedIndex = cbMedico.SelectedIndex;
             cbPaciente.Enabled = true;
-        }
 
+        }
+        /// <summary>
+        /// Cada vez que se cambia el indice del combo de medicos del datagridview se carga el datagridview con sus citas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void nombreComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             int posMedico = cbNombre.SelectedIndex;
@@ -225,17 +273,23 @@ namespace SGHAndresSanchez
             cargarDGVDiagnosticos();
             
         }
-
+        /// <summary>
+        /// Cada vez que se pulsa en el boton de actualizar diagnostico se actualiza el diagnostico
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnActualizarDiagnostico_Click(object sender, EventArgs e)
         {
             hospitalDataSet db = new hospitalDataSet();
             hospitalDataSetTableAdapters.atencsmedicasTableAdapter atencsmedicasTableAdapter = new hospitalDataSetTableAdapters.atencsmedicasTableAdapter();
 
-            atencsmedicasTableAdapter.UpdateDiagnostico(dataGridView1.Rows[0].Cells[4].Value.ToString());
+            //atencsmedicasTableAdapter.UpdateDiagnostico(diagnosticosDataGridView.Rows[0].Cells[4].Value.ToString());
             MessageBox.Show("Se ha actualizado el registro");
            
         }
-
+        /// <summary>
+        /// Carga el combo de los diagnosticos de los medicos
+        /// </summary>
         private void cargarComboMedicosDiagnostico()
         {
             cbNombre.Items.Clear();
@@ -254,24 +308,40 @@ namespace SGHAndresSanchez
             lblEspecialidad.Text = db.medicos[0].especialidad.ToString();
 
         }
-
+        /// <summary>
+        /// Cada vez que se pulsa en el combo de los medicos del datagridview se realiza lo siguiente
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cbNombre_MouseClick(object sender, MouseEventArgs e)
         {
             cargarComboMedicosDiagnostico();
         }
-
+        /// <summary>
+        /// Cada vez que se pulsa en el botón de gestión de medicos se cargar el formulario de gestión de medicos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGestionMedicos_Click(object sender, EventArgs e)
         {
             GestionMedicos gestionMedicos = new GestionMedicos();
             gestionMedicos.ShowDialog();
         }
-
+        /// <summary>
+        /// Cada vez que se pulsa en el botón de gestión de pacientes se cargar el formulario de gestión de pacientes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGestionPacientes_Click(object sender, EventArgs e)
         {
             GestionPacientes gestionPacientes = new GestionPacientes();
             gestionPacientes.ShowDialog();
         }
-
+        /// <summary>
+        /// Cada vez que se pulsa en el botón de añadir cita se añadirá la cita a la base de datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAnadirCita_Click(object sender, EventArgs e)
         {
             int posPaciente = cbPaciente.SelectedIndex;
@@ -284,11 +354,15 @@ namespace SGHAndresSanchez
 
             DateTime fecha=DateTime.Parse(fechaDateTimePicker.Value.ToShortDateString());
 
-            hospitalDataSetTableAdapters.DataTable1TableAdapter DataTable1TableAdapter = new hospitalDataSetTableAdapters.DataTable1TableAdapter();
-            DataTable1TableAdapter.InsertCita(fecha, idPaciente,idMedico,"");
+            //hospitalDataSetTableAdapters.DataTable1TableAdapter DataTable1TableAdapter = new hospitalDataSetTableAdapters.DataTable1TableAdapter();
+            //DataTable1TableAdapter.InsertCita(fecha, idPaciente,idMedico,"");
             MessageBox.Show("Se ha añadido la cita");
         }
-
+        /// <summary>
+        /// Cada vez que se pulsa en el botón de pacientesMedicoDia se cargar el formulario de Informe de pacientes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnPacientesMedicoDia_Click(object sender, EventArgs e)
         {
             InformePacientes informePacientes = new InformePacientes();
@@ -300,7 +374,11 @@ namespace SGHAndresSanchez
             HistorialClinico historialClinico = new HistorialClinico();
             historialClinico.ShowDialog();
         }
-
+        /// <summary>
+        /// Cada vez que se actualiza una fila del datadridview, se activa el boton de actualizar diagnostico
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
             btnActualizarDiagnostico.Enabled = true;

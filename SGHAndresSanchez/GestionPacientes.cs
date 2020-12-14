@@ -16,7 +16,11 @@ namespace SGHAndresSanchez
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Cada vez que pulsemos en el botón para guardar el paciente, nos mostrará un mensaje
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void pacientesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
@@ -25,14 +29,22 @@ namespace SGHAndresSanchez
             MessageBox.Show("Se ha actualizado el paciente");
 
         }
-
+        /// <summary>
+        /// Acciones que se realizan al cargar el formulario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void GestionPacientes_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'hospitalDataSet.pacientes' Puede moverla o quitarla según sea necesario.
             this.pacientesTableAdapter.Fill(this.hospitalDataSet.pacientes);
 
         }
-
+        /// <summary>
+        /// Cada vez que queramos eliminar un paciente, primero nos preguntara si de verdad queremos eliminarlo, si pulsamos si lo elimina, si no no
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
         {
             int regs;
@@ -60,10 +72,14 @@ namespace SGHAndresSanchez
                 pacientesTableAdapter.Fill(db.pacientes);
             }
         }
-
+        /// <summary>
+        /// Cada vez que queramos añadir nuevos campos, hariamos lo siguiente, en este caso no hay nada
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se ha añadido el paciente");
+            
         }
     }
 }
